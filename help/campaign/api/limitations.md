@@ -1,0 +1,136 @@
+---
+title: Recommendationsと制限事項
+description: Campaign v8 REST API への移行時のRecommendationsと制限事項
+audience: developing
+content-type: reference
+topic-tags: campaign-standard-apis
+role: Data Engineer
+level: Experienced
+mini-toc-levels: 1
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+workflow-type: tm+mt
+source-wordcount: '1165'
+ht-degree: 1%
+
+---
+
+# Recommendationsと制限事項 {#limitations}
+
+## 権限とセキュリティ {#permissions}
+
+### 製品プロファイルのマッピング
+
+Campaign Standardとして、割り当てられている製品プロファイルに関係なく、API に対する昇格された管理者の役割アクセスが付与されました。 Campaign v8 では、異なる製品プロファイルセットが導入されており、Campaign Standardから Campaign v8 製品プロファイルへのマッピングが必要です。
+
+移行すると、既存または事前作成済みのテクニカルアカウントに、管理者と Message Center （トランザクション API へのアクセス用）の 2 つの製品プロファイルが追加されます。 製品プロファイルのマッピングを確認し、管理者の製品プロファイルがテクニカルアカウントにマッピングされないようにする場合は、必要な製品プロファイルを割り当てます。
+
+### テナント ID
+
+移行後、今後の統合では、を使用することをお勧めします **Campaign v8 テナント ID** rest URL で、以前のCampaign Standardのテナント ID を置き換えます。
+
+### 主な使用方法
+
+PKey 値の管理は、Campaign Standardーと Campaign v8 では異なります。 Campaign Standardを使用して PKeys を保存していた場合は、以前の API 呼び出しから取得した PKeys または href を使用して、以降の API 呼び出しが動的に作成されるようにします。
+
+## 使用可能な API {#deprecated}
+
+現時点では、以下に示す REST API を使用できます。
+
+* **プロファイル**
+* **サービスと購読**
+* **カスタムリソース**
+* **ワークフロー**
+
+>[!AVAILABILITY]
+>
+>現時点では、 **トランザクションメッセージ** REST API は使用できません。
+>
+>以下に示す REST API は非推奨であり、使用できません。
+>* マーケティング履歴
+>* 組織単位
+>* プライバシーの管理
+
+## フィルター
+
+* REST API ペイロードでフィルターを使用するには、Campaign v8 でフィルターを編集し、ペイロードで使用する名前を指定する必要があります。 これを行うには、フィルターの追加パラメーターにアクセスします（）。 **[!UICONTROL パラメーター]** タブをクリックし、で目的の名前を指定します **[!UICONTROL REST API でのフィルター名]** フィールド。
+
+  ![](assets/api-filtering.png)
+
+
+* カスタムフィルターを使用するために必要な「by」プレフィックスは不要になりました。 フィルター名は、リクエストでそのまま使用する必要があります。
+
+  例：
+
+  `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+## 削除されたデータベースフィールド
+
+移行中にデータベースの一部のフィールドが削除されます。 ドロップされたフィールドを使用する場合、REST API は空白の値を返します。 今後、ドロップされたすべてのフィールドは、非推奨となり、削除されます。
+
+## リソースがリンクされたPOST
+
+次のリクエスト本文形式を使用し、「vehicleOwner」が「nms:recipient」へのリンクを表す場合：
+
+```
+{
+    "vehicleNumber": "20009",
+    "vehicleName": "Model E",
+    "vehicleOwner":{
+        "firstName":"tester 11",
+        "lastName":"Smith 11"
+    }
+}
+```
+
+リンク情報は無視されます。 その結果、「vehicleNumber」と「vehicleName」の値のみを含んだ新規レコードが「cusVehicle」の下に生成されます。 ただし、リンクは null のままなので、「vehicleOwner」が null に設定されます。
+
+Campaign v8 で同じリクエスト本文構造を使用し、「vehicle」がプロファイルにリンクされると、エラーが発生します。 このエラーは、「firstName」プロパティが「cusVehicle.」に対して有効であると認識されないために発生します。 ただし、リンクのない属性のみで構成されるリクエスト本文は、問題なく機能します。
+
+## PATCH操作
+
+* Campaign v8 は、空のリクエスト本文を持つPATCHをサポートしていません。204 コンテンツなしステータスを返します。
+* Campaign Standardではスキーマ内の要素/属性のPATCHがサポートされていますが、Campaign v8 では、場所に対するPATCH操作はサポートされていません。 場所でPATCHを試みると、「zipCode」プロパティが「profile」リソースに対して有効でないことを示すエラーメッセージが表示される 500 内部サーバーエラーが発生します。
+
+## REST 応答
+
+次の節では、Campaign Standardと v8 REST 応答の小さな違いについて説明します。
+
+* 単一GETレコードの場合、応答には応答に href が含まれます。
+* 属性を指定してクエリされると、Campaign v8 はカウントとページネーションを応答で提供します。
+* POSTの操作後、リンクされたリソースの値が応答で返されます。
+
+## エラーコードとメッセージ
+
+次の節では、Campaign と Campaign v8 のエラーコードおよびCampaign Standardの違いについて説明します。
+
+| シナリオ | Campaign Standard | Campaign v8 |
+|  ---  |  ---  |  ---  |
+| リクエスト本文で無効な PKey を使用 | 500 - 「O5iRp40EGA」属性が不明です（「プロファイル （nms:recipient）」スキーマの定義を参照）。 XTK-170036 式&#39;@id = @O5iRp40EGA&#39;を解析できません。 | 404 - PKey を復号化できません。 （PKey=@jksad） |
+| URI で無効な PKey を使用 | 500 - 「O5iRp40EGA」属性が不明です（「プロファイル （nms:recipient）」スキーマの定義を参照）。 XTK-170036 式&#39;@id = @O5iRp40EGA&#39;を解析できません。 | 404 - PKey を復号化できません。 （PKey=@jksad） サポートされていないエンドポイントです。 （endpoint=rest/profileAndServices/profile/@jksad） |
+| URI とリクエスト本文での 2 つの異なる生の Pkey の使用 | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 RST-360012 リソース &#39;service&#39;の操作に一貫性がありません – キー&#39;SVC3&#39;を&#39;SVC4&#39;に更新できません。 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
+| URI での PKey とリクエスト本文での別の生の PKey の使用 | 500 – 同じキー&#39;SVC4&#39;を持つ&#39;サービス&#39;が既に存在します。 PGS-220000 PostgreSQL エラー：エラー：キー値の重複は、一意の制約「nmsservice_name」に違反します。詳細：キー（sname）=（SVC4）は既に存在します。 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
+| URI に存在しない Raw-ID の使用 | 404 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 キー「adobe_nl:0」からのパス「Service」に文書が見つかりません（スキーマ「service」および名前「adobe_nl」の文書） | 404 - キー「adobe_nl」からのパス「Service」を含むドキュメントが見つかりません（スキーマ「service」および名前「adobe_nl」を含むドキュメント） |
+| リクエスト本文で存在しない生の ID を使用 | 404 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 パス「Service」 （キー「adobe_nl」）に文書が見つかりません（スキーマ「service」、名前「adobe_nl」の文書） | 404 - キー「adobe_nl」からのパス「Service」を含むドキュメントが見つかりません（スキーマ「service」および名前「adobe_nl」を含むドキュメント） |
+| - | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
+| 無効な性別（または任意の）列挙値を持つプロファイル/サービスを挿入 | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 値「invalid」は「nms」には無効です:recipient:「@gender」フィールドの「性別」列挙 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
+
+## プロファイル – タイムゾーン
+
+Campaign Standardでは、タイムゾーンは次の JSON 応答の一部として表示されます **profileAndServices/profile** REST API 呼び出し。
+
+Campaign v8 では、タイムゾーンは次の一部としてユーザーにのみ表示されます **profileAndServicesExt/profile** REST API 呼び出し。 次の一部ではありません： **profileAndServices/profile** 拡張スキーマで追加されているので、REST API 呼び出し。
+
+## ワークフロー – 外部シグナルのトリガー
+
+Campaign StandardワークフローGET API は、ワークフローインスタンス変数などのパラメーター名と、そのデータタイプ（ブール値、文字列など）を返します。 これは、POST API 呼び出しを介してシグナルをトリガーする際に、適切にフォーマットされた JSON リクエスト本文を作成するために使用されます。
+
+Campaign v8 は広告ワークフローインスタンス変数をサポートしていませんが、開発者がそれらが何であるかを知っていることを期待しています。 そのため、移行後に、POSTリクエスト本文のパラメーター情報を、GET API 応答でパラメーター情報を利用することなく構築する必要があります。
+
+## トランザクションメッセージ
+
+* Campaign Standardを使用すると、POSTリクエストは、リクエスト本文の要素および属性の空のフィールドを返します。 Campaign v8 では、代わりに、リクエスト本文と一致する値が応答で返されます。
+
+* イベント設定を公開すると、API プレビューパネルに、リクエスト本文構文と共に REST URL が表示されます。
+
+  Campaign v8 はイベント設定フィールドの定義をサポートしていないので（イベントの作成は eventType 列挙に値を追加するだけです）、イベントタイプを追加する際の API プレビューパネルはありません。 イベントトランザクションメッセージが公開されると、REST URL がトランザクションメッセージユーザーインターフェイスに表示されます。
