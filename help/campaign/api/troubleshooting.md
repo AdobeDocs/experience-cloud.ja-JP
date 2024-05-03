@@ -4,8 +4,7 @@ description: Campaign StandardAPI に関するよくある問題の詳細を説�
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -86,7 +85,7 @@ Adobe.io は無効な URI を宣言します：おそらく、要求している
 
 インスタンスの設定に応じて、作成したプロファイルをに関連付ける必要があります **orgUnit**. 作成にこのフィールドを追加する方法については、を参照してください。 [この節](creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
+<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles

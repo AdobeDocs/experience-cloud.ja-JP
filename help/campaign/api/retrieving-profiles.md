@@ -4,8 +4,7 @@ description: API を使用してプロファイルを取得する方法の詳細
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 4%
