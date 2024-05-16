@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
+source-git-commit: 18979fea28f4f3adce1139293203a59876831313
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 31%
+source-wordcount: '392'
+ht-degree: 28%
 
 ---
 
@@ -24,7 +25,7 @@ Adobe Campaign Standardの API アクセスは、以下の手順でセットア�
 
 1. **電子証明書があることを確認するか**、必要に応じて作成します。証明書に記載されている公開鍵と秘密鍵は、以降の手順で必要になります。
 1. **Adobe Campaign サービスへの新しい統合の作成** 。対象： [Adobe Developer](https://developer.adobe.com/) そして、設定します。 次に、資格情報を生成します（API キー、クライアントシークレットなど）。
-1. 生成済みの資格情報から **JSON Web トークン（JWT）を作成**&#x200B;し、それに秘密鍵で署名します。JWT では、Adobeがユーザーの ID が正しいことを確認し API へのアクセス権をユーザーに付与するのに必要なすべての ID およびセキュリティ情報をエンコードします。
+1. **OAuth サーバー間の作成** 次に従って秘密鍵証明書を作成する [実装手順](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
@@ -32,8 +33,6 @@ Adobe Campaign Standardの API アクセスは、以下の手順でセットア�
    >* [移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [実装](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [非推奨（廃止予定）の JWT に関するよくある質問](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
-
-1. **JWT をアクセストークンと交換する** POSTリクエストを通じて行います。 このアクセストークンを API リクエストの各ヘッダーで使用する必要があります。
 
 サービス間のセキュアな Adobe I/O API セッションを確立するには、アドビサービスへのすべてのリクエストで、以下の情報を Authorization ヘッダーに含める必要があります。
 
