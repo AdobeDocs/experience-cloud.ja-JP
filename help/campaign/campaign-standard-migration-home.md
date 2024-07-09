@@ -3,16 +3,16 @@ title: Adobe Campaign Web ユーザーインターフェイス
 description: Adobe Campaign web ユーザーインターフェイスの確認
 badge: label="限定提供（LA）" type="Informative" url="campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
+source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 11%
+ht-degree: 30%
 
 ---
 
 # Campaign v8 への Campaign Standard の移行 {#triggers-home}
 
-Campaign v8 に移行するCampaign Standardユーザーは、新しいバージョンのAdobe Campaign web ユーザーインターフェイスと強力な v8 コンソールを利用できるようになりました。 このトランジションはシームレスで、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するように設計された直感的な機能をすべて使用できます。 Campaign web ユーザーインターフェイスは、Adobe Experience Platformとキャンバスを接続し、統一されたエクスペリエンスを実現します。
+Campaign v8 に移行する Campaign Standard ユーザーは、新しいバージョンの Adobe Campaign web ユーザーインターフェイスと強力な v8 コンソールを利用できるようになりました。この移行はシームレスで、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するように設計された、直感的な機能をすべて使用できます。Campaign web ユーザーインターフェイスは、Adobe Experience Platformとキャンバスを接続し、統一されたエクスペリエンスを実現します。
 
 さらに、この移行は多くのメリットをもたらします。
 
@@ -21,7 +21,7 @@ Campaign v8 に移行するCampaign Standardユーザーは、新しいバージ
 * Adobe Experience Platformとの統合
 * 一貫したユーザーインターフェイスとエクスペリエンス
 
-主な機能と概念の違いについて詳しくは、次を参照してください。 [このページ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/release-notes/acs-migration).
+主な機能と概念の違いについて詳しくは、次を参照してください。 [このページ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
 
 ## 最新情報
 
