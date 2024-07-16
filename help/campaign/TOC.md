@@ -4,10 +4,10 @@ user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
 role: User
-source-git-commit: dfe80854447b2a49b53908947b7814c7b8e29fa5
+source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 74%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +39,8 @@ ht-degree: 74%
       + [ビジュアライゼーションの追加](reporting/adding-visualizations.md)
       + [コンポーネントの追加](reporting/adding-components.md)
       + [カスタムプロファイルディメンションの作成](reporting/creating-a-custom-profile-dimension.md)
-+ ブランド化 {#branding}
+      + [動的レポート使用契約](reporting/pii-agreement.md)
++ ブランディング {#branding}
    + [ブランディングについて](branding/branding-gs.md)
    + [ブランドの設定](branding/branding-configure.md)
    + [ブランドの割り当て](branding/branding-assign.md)
@@ -55,7 +56,7 @@ ht-degree: 74%
       + [動詞](api/verbs.md)
       + その他の操作 {#additional-operations}
          + [並べ替え](api/sorting.md)
-         + [フィルター](api/filtering.md)
+         + [フィルタリング](api/filtering.md)
          + [カウント](api/counting.md)
          + [ページネーション](api/pagination.md)
       + [カスタムリソース](api/custom-resources.md)
@@ -64,7 +65,7 @@ ht-degree: 74%
       + [プロファイルの取得](api/retrieving-profiles.md)
       + [プロファイルの更新](api/updating-profiles.md)
       + [プロファイルの作成](api/creating-profiles-api.md)
-   + サービスと購読の管理 {#managing-services-and-subscriptiopns}
+   + サービスと購読 {#managing-services-and-subscriptiopns} の管理
       + [サービスの作成](api/creating-a-service.md)
       + [購読の取得](api/retrieving-subscriptions.md)
       + [購読の実行](api/perform-subscriptions.md)
