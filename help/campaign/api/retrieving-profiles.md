@@ -4,7 +4,8 @@ description: API を使用してプロファイルを取得する方法の詳細
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 4%
@@ -13,9 +14,9 @@ ht-degree: 4%
 
 # API を使用したプロファイルの取得 {#retrieving-profiles}
 
-プロファイルの取得は、 **GET** リクエスト。
+プロファイルの取得は、**GET** リクエストで実行されます。
 
-その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、次を参照してください [その他の操作](sorting.md) セクション。
+その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、[ その他の操作 ](sorting.md) の節を参照してください。
 
 さらに、Campaign StandardAPI では、「メール」、「名」、「姓」または任意のカスタムフィールドのいずれか 1 つに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
 
@@ -84,7 +85,7 @@ ht-degree: 4%
 
 ## フィールドに基づくプロファイルの検索 {#searching-field}
 
-この **[!UICONTROL filterType]** パラメーターを使用すると、「電子メール」、「名」、「姓」またはプロファイルリソースの拡張時に詳細フィルタリングで追加したカスタムフィールドのうち、いずれかのフィールドに基づいてプロファイルを取得できます。
+**[!UICONTROL filterType]** パラメーターを使用すると、次のいずれかのフィールドに基づいてプロファイルを取得できます。メール、名、姓、またはプロファイルリソースを拡張する際の詳細フィルタリングで追加されたカスタムフィールド。
 
 >[!NOTE]
 >

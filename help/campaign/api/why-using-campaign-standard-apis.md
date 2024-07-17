@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -33,15 +34,15 @@ Adobe Campaign Standardは、既存のシステムを Campaign プラットフ�
 
 1. Campaign API リスナーを含む登録フォーム
 
-   ![代替テキスト](assets/apis_uc1.png)
+   ![ 代替テキスト ](assets/apis_uc1.png)
 
 1. チェックボックスに基づいて実行されるカスタムアクション。 「特別オファーをメールで送信」を選択した顧客には、通常の登録プロセスと比較して、ギフトクーポンを含む別のカスタムメールが送信されます。
 
-   ![代替テキスト](assets/apis_uc2.png)
+   ![ 代替テキスト ](assets/apis_uc2.png)
 
 1. プロファイルは、メールの「詳細を更新」リンクをクリックした後、詳細を変更する場合があります。 プロファイルが「プロファイルおよび環境設定の詳細を更新」ページに移動します。 操作を実行するには、プロファイルの詳細（Pkey）が Campaign サーバーに渡され、プロファイルが取得されて表示されます。 プロファイルが「更新」ボタンをクリックすると、PATCHコマンドを使用して情報がシステムに更新されます。
 
-   ![代替テキスト](assets/apis_uc3.png)
+   ![ 代替テキスト ](assets/apis_uc3.png)
 
 Campaign StandardAPI リクエストを把握するのに役立つリクエストのコレクションを使用できます。 JSON 形式のこのコレクションは、一般的なユースケースを表す事前に設計された API リクエストを提供します。
 
@@ -51,26 +52,26 @@ Campaign StandardAPI リクエストを把握するのに役立つリクエス�
 >
 >この例ではPostmanを使用します。 ただし、お気に入りの REST クライアントを自由に使用できます。
 
-1. 次をクリックして、JSON コレクションをダウンロードします。 [こちら](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. [ こちら ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip) をクリックして、JSON コレクションをダウンロードします。
 
-1. Postmanを開き、 **ファイル** / **インポート** メニュー。
+1. Postmanを開き、「**ファイル**/**読み込み** メニューを選択します。
 
 1. ダウンロードしたファイルをウィンドウにドラッグ&amp;ドロップします。 事前に設計された API リクエストが表示され、すぐに使用できます。
 
-   ![代替テキスト](assets/postman_collection.png)
+   ![ 代替テキスト ](assets/postman_collection.png)
 
-1. 「」を選択します **プロファイルの作成** をリクエストし、POSTリクエストを更新して、 **ヘッダー** tab キーを押して独自の情報を追加（&lt;organization>, &lt;api_key>, &lt;access_token>）に設定します。 詳しくは、[この節](setting-up-api-access.md)を参照してください。
+1. **プロファイルの作成** リクエストを選択して、POSTリクエストと **Headers** タブを独自の情報（&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>）で更新します。 詳しくは、[この節](setting-up-api-access.md)を参照してください。
 
-   ![代替テキスト](assets/postman_uc1.png)
+   ![ 代替テキスト ](assets/postman_uc1.png)
 
-1. を入力します **本文** 新しいプロファイルに追加する情報を入力し、 **送信** リクエストを実行するボタン。
+1. 新しいプロファイルに追加する情報を「**本文**」タブに入力し、「**送信**」ボタンをクリックしてリクエストを実行します。
 
-   ![代替テキスト](assets/postman_uc2.png)
+   ![ 代替テキスト ](assets/postman_uc2.png)
 
 1. オブジェクトが作成されると、プライマリキー（PKey）が関連付けられます。 これは、リクエスト応答やその他の属性にも表示されます。
 
-   ![代替テキスト](assets/postman_uc3.png)
+   ![ 代替テキスト ](assets/postman_uc3.png)
 
 1. Campaign Standardインスタンスを開き、ペイロードからのすべての情報を使用してプロファイルが作成されていることを確認します。
 
-   ![代替テキスト](assets/postman_uc4.png)
+   ![ 代替テキスト ](assets/postman_uc4.png)

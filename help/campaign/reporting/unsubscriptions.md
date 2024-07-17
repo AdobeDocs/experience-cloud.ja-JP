@@ -4,7 +4,8 @@ description: 標準の購読解除レポートで、顧客が配信の購読を�
 level: Intermediate
 audience: end-user
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 15%
@@ -17,4 +18,4 @@ ht-degree: 15%
 
 ![](assets/delivery_reports_unsub.png)
 
-この **[!UICONTROL 上位 5 件の配信]** 表とグラフには、配信されたメッセージの数が最も多い上位 5 件の配信と、登録解除した受信者数が表示されます。 ここにリストされるデータは、メッセージの購読解除リンクのクリック数に基づいています。
+**[!UICONTROL 上位 5 件の配信]** テーブルおよびグラフには、配信されたメッセージ数が最も多い上位 5 件の配信と、購読解除した受信者数が表示されます。 ここにリストされるデータは、メッセージの購読解除リンクのクリック数に基づいています。

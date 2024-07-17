@@ -4,7 +4,8 @@ description: API を使用して購読を取得する方法を説明します
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -22,11 +23,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->REST API は「href」プロパティを返します。このプロパティには、使用する URL が含まれています。 <b>応答に含まれる URL を常に使用して、後続の API リクエストを実行します</b>.
+>REST API は「href」プロパティを返します。このプロパティには、使用する URL が含まれています。 <b> 応答に含まれる URL を常に使用して、後続の API リクエストを実行します </b>。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 GETリクエストを実行して、サービスを取得します。
 
@@ -88,7 +89,7 @@ GETリクエストを実行して、サービスを取得します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 GETリクエストを実行して、プロファイルを取得します。
 

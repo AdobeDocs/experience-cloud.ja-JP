@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: d6354249-3b0d-4532-951f-b0fae953f7e1
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -16,13 +17,13 @@ ht-degree: 2%
 
 # カウント
 
-Adobe Campaign REST API は、リクエスト内のレコード数をカウントできます。 これを行うには、で返された URL を使用します **count** ノード。
+Adobe Campaign REST API は、リクエスト内のレコード数をカウントできます。 それには、**count** ノードで返された URL を使用します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-を持つすべてのサービスをカウントするには **messageType** 値は「sms」と同じ、を使用してGETリクエストを実行します。 **byChannel** フィルター。
+**messageType** の値が「sms」と等しいすべてのサービスをカウントするには、**byChannel** フィルターを使用してGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -53,7 +54,7 @@ Adobe Campaign REST API は、リクエスト内のレコード数をカウン�
 }
 ```
 
-でGETリクエストを実行します。 **count** ノードの URL を使用して結果の数を取得します。
+**count** ノードの URL でGETリクエストを実行し、結果の数を取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \

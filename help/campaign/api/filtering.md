@@ -1,5 +1,5 @@
 ---
-title: フィルター
+title: フィルタリング
 description: フィルタリング操作の実行方法を説明します。
 audience: developing
 content-type: reference
@@ -7,24 +7,25 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# フィルター {#filtering}
+# フィルタリング {#filtering}
 
 ## フィルターメタデータの取得
 
-各リソースに対してフィルターを使用できます。 リソースに関連付けられたフィルターを特定するには、リソースのメタデータに対してGETリクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されている URL を返します。 メタデータについて詳しくは、次を参照してください： [この節](metadata-mechanism.md).
+各リソースに対してフィルターを使用できます。 リソースに関連付けられたフィルターを特定するには、リソースのメタデータに対してGETリクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されている URL を返します。 メタデータについて詳しくは、[ この節 ](metadata-mechanism.md) を参照してください。
 
 フィルターのメタデータを特定し、その使用方法を判断するには、以前に返された URL に対してGETリクエストを実行する必要があります。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 以下のサンプルペイロードは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 まず、「プロファイル」リソースメタデータでGETリクエストを実行します。
 
@@ -65,10 +66,10 @@ URL でGETリクエストを実行します。 プロファイルリソースの
 
 各フィルターで同じメタデータ構造を使用できます。
 
-* この **@formType** および **@webPage** フィールドは技術的なフィールドです。
-* この **データ** フィールドには、フィルターの使用方法に関するサンプルが表示されます。
-* この **メタデータ** ノードは、フィルターパラメーターを表します。
-* この **条件** ノードは、フィルターの目的を示します。 メタデータノードで記述されたフィルターパラメーターは、フィルター条件の作成に使用されます。 フィルター条件ごとに、次の場合： **enabledIf** が true の場合、 **expr** が適用されます。
+* 「**@formType**」フィールドと「**@webPage**」フィールドは技術分野です。
+* **データ** フィールドには、フィルターの使用方法に関するサンプルが表示されます。
+* **metadata** ノードは、フィルターパラメーターを記述します。
+* **条件** ノードは、フィルターの目的を示します。 メタデータノードで記述されたフィルターパラメーターは、フィルター条件の作成に使用されます。 フィルター条件ごとに、**enabledIf** が true の場合、**expr** が適用されます。
 
 <br/>
 
@@ -132,7 +133,8 @@ URL でGETリクエストを実行します。 プロファイルリソースの
   }
   ```
 
-* 「メール」フィールドまたは「姓」フィールドに「Doe」を含む「プロファイル」リソースを取得するサンプルGETリクエスト （byText フィルターは「メール」フィールドと「姓」フィールドの両方を検索します）。
+* 「Doe」を含む「プロファイル」リソースを取得するGETリクエストのサンプル
+「メール」フィールドまたは「姓」フィールド（byText フィルターは「メール」フィールドと「姓」フィールドの両方を検索します）。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -200,12 +202,12 @@ URL でGETリクエストを実行します。 プロファイルリソースの
 
 詳しくは、Campaign Standardドキュメントを参照してください。
 
-* [フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [ユースケース：複合 ID キーを使用したリソースの呼び出し](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [ フィルター定義の設定 ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [ ユースケース：複合 ID キーを使用したリソースの呼び出し ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 取引額が 100 ドル以上の「プロファイル」リソースを取得するサンプルGETリクエスト。 「byAmount」フィルターは、最初にAdobe Campaign Standard インターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
 

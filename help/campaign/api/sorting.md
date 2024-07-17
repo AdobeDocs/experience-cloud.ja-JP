@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 10%
@@ -16,7 +17,7 @@ ht-degree: 10%
 
 # 並べ替え
 
-デフォルトでは、昇順で並べ替えることができます。 降順で並べ替えるには、次を追加します **%20desc** に **_order** パラメーターの値。
+デフォルトでは、昇順で並べ替えることができます。 降順で並べ替えるには、**_order** パラメーターの値に **%20desc** を追加します。
 
 フィールドが並べ替え可能かどうかを知るには、リソースメタデータに対して「並べ替え可能」パラメーターを確認します。 詳しくは、[この節](metadata-mechanism.md)を参照してください。
 

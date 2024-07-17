@@ -4,22 +4,23 @@ description: 標準の配信スループット レポートで、配信の成功
 level: Intermediate
 audience: end-user
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: cf086a57-dd70-41bc-a039-4070cecc3a66
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
 # 配信スループット{#delivery-throughput}
 
-このレポートには、1 つまたは複数の送信の配信スループットに関するデータが含まれています。 これには次の機能があります。
+このレポートには、1 つまたは複数の送信の配信スループットに関するデータが含まれています。 次の機能が提供されます。
 
 * 1 時間あたりに処理されるメッセージの数
-* この **[!UICONTROL 上位 5 件の配信]** 再試行で最も大きな利益を得られる 5 つの配信を示す表と補足的な概要数値。
+* **[!UICONTROL 上位 5 件の配信]** の表と補完的な概要数値は、再試行で最も得られる結果が最も多い 5 件の配信を示しています。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->この **[!UICONTROL 配信スループット]** campaign からAdobe Campaign Enhanced MTA （メッセージ転送エージェント）にメッセージをリレーするためのスループット速度を表示します。
+>**[!UICONTROL 配信スループット]** ページには、Campaign からAdobe Campaign Enhanced MTA （Message Transfer Agent）にメッセージをリレーするためのスループット速度が表示されます。

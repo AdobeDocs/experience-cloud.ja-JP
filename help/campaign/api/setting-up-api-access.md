@@ -17,22 +17,22 @@ ht-degree: 28%
 
 # API アクセスのセットアップ {#setting-up-api-access}
 
-Adobe Campaign Standardの API アクセスは、以下の手順でセットアップします。 これらの各手順について詳しくは、こちらを参照してください [Adobe Developer ドキュメント](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Adobe Campaign Standardの API アクセスは、以下の手順でセットアップします。 これらの各手順について詳しくは、[Adobe Developer ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) を参照してください。
 
 >[!IMPORTANT]
 >
->で証明書を管理するには [Adobe Developer](https://developer.adobe.com/)。次が揃っていることを確認します **システム管理者** 組織またはに対する権限 [開発者アカウント](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html) Admin Consoleで。
+>[Adobe Developer](https://developer.adobe.com/) で証明書を管理するには、組織の **システム管理者** 権限またはAdmin Consoleの [ 開発者アカウント ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html) があることを確認してください。
 
 1. **電子証明書があることを確認するか**、必要に応じて作成します。証明書に記載されている公開鍵と秘密鍵は、以降の手順で必要になります。
-1. **Adobe Campaign サービスへの新しい統合の作成** 。対象： [Adobe Developer](https://developer.adobe.com/) そして、設定します。 次に、資格情報を生成します（API キー、クライアントシークレットなど）。
-1. **OAuth サーバー間の作成** 次に従って秘密鍵証明書を作成する [実装手順](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+1. **2}Adobe Developer} で** Adobe Campaign サービスへの新しい統合を作成 ](https://developer.adobe.com/) し、設定します。 [次に、資格情報を生成します（API キー、クライアントシークレットなど）。
+1. 次の [ 実装手順 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) に従って、**OAuth サーバー間** 資格情報を作成します。
 
    >[!IMPORTANT]
    >
    >JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。この移行は、Campaign の今後のリリースで段階的に実行されます。 サービスアカウント（JWT）資格情報は非推奨（廃止予定）としてマークされ、2025 年 1 月 27 日（PT）まで引き続き機能します。 したがって、2025 年 1 月 27 日（PT）より前に、新しい OAuth サーバー間資格情報を使用するようにアプリケーションまたは統合を移行する必要があります。 OAuth 認証をお勧めします。 JWT 認証から OAuth 認証に移行するすべての要素は、次のページにあります。
    >* [移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [実装](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
-   >* [非推奨（廃止予定）の JWT に関するよくある質問](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
+   >* [ 非推奨（廃止予定）の JWT に関する FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 サービス間のセキュアな Adobe I/O API セッションを確立するには、アドビサービスへのすべてのリクエストで、以下の情報を Authorization ヘッダーに含める必要があります。
 
@@ -44,18 +44,18 @@ Adobe Campaign Standardの API アクセスは、以下の手順でセットア�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**：これは個人の組織 ID で、インスタンスごとに 1 つの組織 ID がAdobeから提供されます。
+* **&lt;ORGANIZATION>**：これは個人の組織 ID で、インスタンスごとに 1 つの組織 ID がAdobeから提供されます。
 
-   * &lt;organization> ：実稼動インスタンス、
-   * &lt;organization-mkt-stage>：ステージインスタンス。
+   * &lt;ORGANIZATION>：実稼動インスタンス、
+   * &lt;ORGANIZATION-mkt-stage>：お使いのステージインスタンス。
 
-  組織 ID の値を取得するには、管理者またはアドビの技術担当者にお問い合わせください。また、新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取得することもできます（ <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer ドキュメント</a>）に設定します。
+  組織 ID の値を取得するには、管理者またはアドビの技術担当者にお問い合わせください。また、新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取得することもできます（<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developerのドキュメント </a> を参照してください）。
 
-* **&lt;access_token>**:POSTリクエストを通じて JSON web トークンを交換する際に取得した個人用アクセストークンです。
+* **&lt;ACCESS_TOKEN>**:POSTリクエストを通じて JSON web トークンを交換する際に取得した個人用アクセストークンです。
 
 * **&lt;API_KEY>**：個人用 API キーです。Adobe Campaign サービスへの新しい統合を作成した後、Adobe I/Oで提供されます。
 
-  ![代替テキスト](assets/tenant.png)
+  ![ 代替テキスト ](assets/tenant.png)
 
 ## トラブルシューティング
 

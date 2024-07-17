@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -30,17 +31,17 @@ ht-degree: 0%
 
 ## リソース表示域
 
-すべての API リソースは、次の場所で利用できます。 **JSON** URL 拡張子を使用するか、HTTP Accept ヘッダー内で使用します。
+すべての API リソースは、URL 拡張子を持つ **JSON** 内、または HTTP Accept ヘッダー内で使用できます。
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->URL に拡張子がない場合、 **デフォルトでは json 形式が使用されます** content-type の場合。
+>URL に拡張子がない場合、content-type では **json 形式がデフォルト** です。
 
 <br/>
 
-***リクエストサンプル***
+***サンプルを要求***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -66,11 +67,11 @@ ht-degree: 0%
 
 キー値が元のキーと異なる場合や、Adobeが提供するキーの代わりに独自のビジネスキーを URI として使用している場合、PATCHの操作を使用してカスタムキーを変更することはできません。
 
-カスタムキーを使用： **最上位のプロファイルリソース** のみ。 URL は API によって返され、決して自分で作成しないでください。
+カスタムキーは、**最上位のプロファイルリソース** にのみ使用します。 URL は API によって返され、決して自分で作成しないでください。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 カスタムキーを使用してプロファイルの購読を取得するには、カスタムキーに対してGET操作を実行します。
 

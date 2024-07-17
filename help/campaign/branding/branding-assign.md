@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 51abadc86b97097d13824651d8c50d4ddd014a51
+exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 18%
@@ -33,21 +34,21 @@ ht-degree: 18%
 
 テンプレートを作成したら、それをブランドにリンクできます。その手順は次のとおりです。
 
-1. を参照 **[!UICONTROL リソース]** `>` **[!UICONTROL テンプレート]** `>` **[!UICONTROL 配信テンプレート]** Adobe Campaign エクスプローラー。
+1. Adobe Campaign エクスプローラーで、**[!UICONTROL リソース]**`>`**[!UICONTROL テンプレート]**`>`**[!UICONTROL 配信テンプレート]** を参照します。
 
 1. 配信テンプレートを選択するか、既存の配信テンプレートを複製します。
 
    ![](assets/branding_assign_V8_1.png)
 
-1. へのアクセス **[!UICONTROL プロパティ]** 選択した配信テンプレート
+1. 選択した配信テンプレートの **[!UICONTROL プロパティ]** にアクセスします。
 
    ![](assets/branding_assign_V8_2.png)
 
-1. から **[!UICONTROL 一般]** タブで、ブランドを **[!UICONTROL ブランド化]** ドロップダウン。
+1. 「**[!UICONTROL 一般]**」タブの「**[!UICONTROL ブランディング]**」ドロップダウンでブランドを選択します。
 
    ![](assets/branding_assign_V8_3.png)
 
-1. 設定が完了したら、次を選択します。 **OK**.
+1. 設定が完了したら「**OK**」を選択します。
 
 これで、このテンプレートを使用して配信を送信できます。
 
@@ -57,7 +58,7 @@ ht-degree: 18%
 
 テンプレートを作成したら、それをブランドにリンクできます。その手順は次のとおりです。
 
-1. を参照してください。 **[!UICONTROL テンプレート]** タブ、から **[!UICONTROL 配信]** 左側のメニューをクリックし、配信テンプレートを選択します。
+1. **[!UICONTROL 配信]** 左側のメニューから「**[!UICONTROL テンプレート]**」タブを参照し、配信テンプレートを選択します。
 
    ![](assets/branding_assign_web_1.png)
 
@@ -65,7 +66,7 @@ ht-degree: 18%
 
    ![](assets/branding_assign_web_2.png)
 
-1. から **[!UICONTROL 配信]** タブに移動し、次にアクセスします **[!UICONTROL ブランド化]** フィールドに入力し、テンプレートにリンクするブランドを選択します。
+1. 「**[!UICONTROL 配信]**」タブから「**[!UICONTROL ブランディング]**」フィールドにアクセスし、テンプレートにリンクするブランドを選択します。
 
    ![](assets/branding_assign_web_3.png)
 
@@ -83,31 +84,31 @@ ht-degree: 18%
 
 新しいスタンドアロン配信を作成するには、次の手順に従います。
 
-1. 新しい配信を作成するには、を参照します。 **[!UICONTROL キャンペーン]** タブ。
+1. 新しい配信を作成するには、「**[!UICONTROL Campaigns]**」タブを参照します。
 
-1. クリック **[!UICONTROL 配信]** をクリックし、 **[!UICONTROL 作成]** ボタンが、既存の配信のリストの上に表示されます。
+1. 「**[!UICONTROL 配信]**」をクリックし、既存の配信リストの上にある「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/branding_assign_V8_4.png)
 
 1. 配信テンプレートを選択します。
 
-1. へのアクセス **[!UICONTROL プロパティ]** 選択した配信テンプレート
+1. 選択した配信テンプレートの **[!UICONTROL プロパティ]** にアクセスします。
 
    ![](assets/branding_assign_V8_5.png)
 
-1. から **[!UICONTROL 一般]** タブで、ブランドを **[!UICONTROL ブランド化]** ドロップダウン。
+1. 「**[!UICONTROL 一般]**」タブの「**[!UICONTROL ブランディング]**」ドロップダウンでブランドを選択します。
 
    ![](assets/branding_assign_V8_6.png)
 
-1. 設定が完了したら、次を選択します。 **OK**.
+1. 設定が完了したら「**OK**」を選択します。
 
-1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、 [メールのデザインと送信](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) セクション。
+1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ メールのデザインと送信 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
 
 >[!TAB Adobe Campaign Web]
 
 新しいスタンドアロン配信を作成するには、次の手順に従います。
 
-1. を参照してください。 **[!UICONTROL 配信]** 左パネルのメニューで、 **[!UICONTROL 配信を作成]** ボタン。
+1. 左側のパネルの **[!UICONTROL 配信]** メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 
    ![](assets/branding_assign_web_4.png)
 
@@ -115,11 +116,11 @@ ht-degree: 18%
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 
-1. から **[!UICONTROL プロパティ]** ページ、クリック **[!UICONTROL 設定]**.
+1. **[!UICONTROL プロパティ]** ページで、「**[!UICONTROL 設定]**」をクリックします。
 
    ![](assets/branding_assign_web_5.png)
 
-1. から **[!UICONTROL 配信]** タブに移動し、次にアクセスします **[!UICONTROL ブランド化]** フィールド。
+1. 「**[!UICONTROL 配信]**」タブから、「**[!UICONTROL ブランディング]**」フィールドにアクセスします。
 
    ![](assets/branding_assign_web_6.png)
 
@@ -127,6 +128,6 @@ ht-degree: 18%
 
    ![](assets/branding_assign_web_7.png)
 
-1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、 [最初のメールを作成](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) セクション。
+1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ 最初のメールの作成 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
 
 >[!ENDTABS]

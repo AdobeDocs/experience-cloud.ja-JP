@@ -8,7 +8,8 @@ role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Campaign Standardとして、割り当てられている製品プロファイル
 
 ### テナント ID
 
-移行後、今後の統合では、を使用することをお勧めします **Campaign v8 テナント ID** rest URL で、以前のCampaign Standardのテナント ID を置き換えます。
+移行後、今後の統合では、以前のCampaign Standardテナント ID を置き換えて、REST URL で **Campaign v8 テナント ID** を使用することをお勧めします。
 
 ### 主な使用方法
 
@@ -44,16 +45,16 @@ PKey 値の管理は、Campaign Standardーと Campaign v8 では異なります
 
 >[!AVAILABILITY]
 >
->現時点では、 **トランザクションメッセージ** REST API は使用できません。
+>現時点では、**トランザクションメッセージ** REST API は使用できません。
 >
 >以下に示す REST API は非推奨であり、使用できません。
 >* マーケティング履歴
 >* 組織単位
 >* プライバシーの管理
 
-## フィルター
+## フィルタリング
 
-* REST API ペイロードでフィルターを使用するには、Campaign v8 でフィルターを編集し、ペイロードで使用する名前を指定する必要があります。 これを行うには、フィルターの追加パラメーターにアクセスします（）。 **[!UICONTROL パラメーター]** タブをクリックし、で目的の名前を指定します **[!UICONTROL REST API でのフィルター名]** フィールド。
+* REST API ペイロードでフィルターを使用するには、Campaign v8 でフィルターを編集し、ペイロードで使用する名前を指定する必要があります。 これを行うには、「**[!UICONTROL パラメーター]**」タブからフィルターの追加パラメーターにアクセスし、「**[!UICONTROL REST API のフィルター名]**」フィールドに目的の名前を指定します。
 
   ![](assets/api-filtering.png)
 
@@ -113,13 +114,13 @@ Campaign v8 で同じリクエスト本文構造を使用し、「vehicle」が�
 | URI に存在しない Raw-ID の使用 | 404 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 キー「adobe_nl:0」からのパス「Service」に文書が見つかりません（スキーマ「service」および名前「adobe_nl」の文書） | 404 - キー「adobe_nl」からのパス「Service」を含むドキュメントが見つかりません（スキーマ「service」および名前「adobe_nl」を含むドキュメント） |
 | リクエスト本文で存在しない生の ID を使用 | 404 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 パス「Service」 （キー「adobe_nl」）に文書が見つかりません（スキーマ「service」、名前「adobe_nl」の文書） | 404 - キー「adobe_nl」からのパス「Service」を含むドキュメントが見つかりません（スキーマ「service」および名前「adobe_nl」を含むドキュメント） |
 | - | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
-| 無効な性別（または任意の）列挙値を持つプロファイル/サービスを挿入 | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 値「invalid」は「nms」には無効です:recipient:「@gender」フィールドの「性別」列挙 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
+| 無効な性別（または任意の）列挙値を持つプロファイル/サービスを挿入 | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 値「invalid」は「@gender」フィールドの「nms:recipient:gender」列挙には無効です | 500 - エラーが発生しました。管理者にお問い合わせください。 |
 
 ## プロファイル – タイムゾーン
 
-Campaign Standardでは、タイムゾーンは次の JSON 応答の一部として表示されます **profileAndServices/profile** REST API 呼び出し。
+Campaign Standardでは、タイムゾーンは、REST API 呼び出しの **profileAndServices/profile** JSON 応答の一部として表示されます。
 
-Campaign v8 では、タイムゾーンは次の一部としてユーザーにのみ表示されます **profileAndServicesExt/profile** REST API 呼び出し。 次の一部ではありません： **profileAndServices/profile** 拡張スキーマで追加されているので、REST API 呼び出し。
+Campaign v8 では、タイムゾーンは、**profileAndServicesExt/profile** REST API 呼び出しの一部としてユーザーにのみ表示されます。 拡張されたスキーマで追加されるので、**profileAndServices/profile** REST API 呼び出しの一部ではありません。
 
 ## ワークフロー – 外部シグナルのトリガー
 

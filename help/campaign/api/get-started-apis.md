@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 48%
@@ -22,7 +23,7 @@ ht-degree: 48%
 >
 >API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
 
-Campaign REST API は、以下を可能にすることを目的としています **統合の作成** Adobe Campaignの場合 **独自のエコシステムの構築** Adobe Campaignを使用するテクノロジーのパネルと統合する。
+Campaign REST API は、Adobe Campaignに使用するテクノロジーのパネルをインターフェイスで接続することで、Adobe Campaign向けの **統合を作成** したり、独自のエコシステムを構築 **したりできる** ことを目的としています。
 
 Adobe Campaign REST API を使用すると、次の機能にアクセスできます。
 

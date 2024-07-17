@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # API のトラブルシューティング {#troubleshooting}
 
-* **Adobe.io コンソールに移動すると、次のエラーが表示されます：「Adobe I/Oコンソールは、エンタープライズアカウントの一部のメンバーのみが使用できます。 アクセス権が必要と思われる場合は、システム管理者にお問い合わせください。」**
+* **enterprise.io コンソールに移動すると、次のAdobeが表示されます。「Adobe I/Oコンソールは、Enterprise アカウントの一部のメンバーのみが使用できます。 アクセス権が必要と思われる場合は、システム管理者にお問い合わせください。」**
 
 API キーを作成できるのは、管理者である組織用のみです。 このメッセージが表示された場合、API キーを作成して組織の管理者の 1 人に依頼するとします。
 
-* **Error.io にリクエストを行うと、{&quot;Adobe_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;プロファイルが無効です&quot;} と表示される**
+* **error.io にリクエストを行うと、{&quot;Adobe_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;プロファイルが無効です&quot;} と表示される**
 
 つまり、特定の Campaign 製品の IMS プロビジョニングに問題があります。IMS チームがそれを修正する必要があります。
 
@@ -73,17 +73,17 @@ API キーを作成できるのは、管理者である組織用のみです。 
 }
 ```
 
-* **Adobe.io にリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops.というメッセージが表示されます。 エラーが発生しました。 URI を確認して、もう一度試してください。」 }**
+* **message.io にリクエストを行うと、{&quot;code&quot;:500, &quot;Adobe&quot;:&quot;エラーが発生します。 エラーが発生しました。 URI を確認して、もう一度やり直してください。」**
 
 Adobe.io は無効な URI を宣言します：おそらく、要求している URI が無効です。 Adobe.io で Campaign サービスを選択すると、使用可能な organization_ids のリストを含むピッカーが表示されます。 選択したものが URL に入力したものであることを確認する必要があります。
 
-* **Error.io へのリクエストを行うと、{&quot;Adobeコード&quot;:&quot;401013&quot;,&quot;メッセージ&quot;:&quot;Oauth トークンが無効です&quot;} と表示されます**
+* **error.io にリクエストを行うと、{&quot;Adobe_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth トークンが無効です&quot;} と表示される**
 
 トークンが無効であるか（トークンの生成に使用された IMS 呼び出しが正しくありません）、トークンの有効期限が切れています。
 
 * **作成後にプロファイルが表示されません**
 
-インスタンスの設定に応じて、作成したプロファイルをに関連付ける必要があります **orgUnit**. 作成にこのフィールドを追加する方法については、を参照してください。 [この節](creating-profiles-api.md).
+インスタンスの設定に応じて、作成したプロファイルは **orgUnit** に関連付ける必要があります。 作成にこのフィールドを追加する方法については、[ この節 ](creating-profiles-api.md) を参照してください。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 

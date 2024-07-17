@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -16,13 +17,13 @@ ht-degree: 1%
 
 # メタデータのメカニズム {#metadata-mechanism}
 
-次を使用して、リソースメタデータを取得できます **resourceType** GETリクエストの場合：
+データリクエストで **resourceType** を使用して、リソースのメタGETを取得できます。
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 応答は、リソースからメインメタデータを返します（他のすべてのフィールドは説明的または内部的です）。
 
-* この **コンテンツ** ノードは、リソースのフィールドを返します。 の各フィールド用 **コンテンツ** ノードをクリックすると、次のフィールドが表示されます。
+* **コンテンツ** ノードは、リソースのフィールドを返します。 **content** ノードの各フィールドには、次のフィールドがあります。
 
    * 「apiName」:API で使用される属性の名前。
    * 「type」：これは、高レベルのタイプ定義（文字列、数値、リンク、コレクション、列挙など）です。
@@ -31,9 +32,9 @@ ht-degree: 1%
    * &quot;resType&quot;：これは技術的なタイプです。
 
      「type」の値が「link」または「collection」で完了した場合、resTarget の値は、リンクのターゲットとなるリソースの名前になります。
-「type」に値「enumeration」が入力されている場合は、「values」フィールドが追加され、各列挙値の詳細が **値** ノード。
+「type」に値「enumeration」が入力されている場合は、「values」フィールドが追加され、各列挙値について **values** ノードに詳しく記載されます。
 
-* この **フィルター** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、こちらを参照してください。 [この節](filtering.md) セクション。
+* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[ この節 ](filtering.md) を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -42,7 +43,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 リソースでGETリクエストを実行します。
 

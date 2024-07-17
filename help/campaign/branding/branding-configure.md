@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 56f2d2ff4b2ba4184629615a14724e6640df6961
+exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 57%
@@ -19,7 +20,7 @@ ht-degree: 57%
 >
 >ブランドは、エンドユーザーが作成または変更することはできません。これらの操作は、Adobe Campaign の技術管理者が実行する必要があります。ご要望がある場合は、アドビカスタマーケアにお問合せください。
 
-Adobe Campaign V8 では、Brands は以下で見つけることができます。 **[!UICONTROL 管理/ プラットフォーム / ブランディング]** メニュー。
+Adobe Campaign V8 では、ブランドは **[!UICONTROL 管理/プラットフォーム/ブランディング]** メニューにあります。
 
 **[!UICONTROL ブランドは]**、次の特性によって定義されます。
 
@@ -33,7 +34,7 @@ Adobe Campaign V8 では、Brands は以下で見つけることができます�
 
   ![](assets/branding_1.png)
 
-* **[!UICONTROL 送信済み E メールのヘッダーパラメーター]** これにより、キャンペーンの受信者に表示される内容がパーソナライズされます。 このセクションには、次のフィールドが含まれています。
+* **[!UICONTROL 送信済みメールのヘッダーパラメーター]** キャンペーンの受信者に表示される内容をパーソナライズします。 このセクションには、次のフィールドが含まれています。
 
    * **[!UICONTROL Sender (email address)]**：ブランドの電子メールアドレスです。
    * **[!UICONTROL Sender (name)]**：ブランドの名前です。
@@ -49,9 +50,9 @@ Adobe Campaign V8 では、Brands は以下で見つけることができます�
 
 * **[!UICONTROL ブランド設定]** ランディングページアクセスのトラッキングにも使用するサーバーを定義します。 このセクションには、次のフィールドが含まれています。
 
-   * **[!UICONTROL ブランドサブドメイン]** は、Adobeからのデリゲーションをリクエストされた、このブランドに固有の、指定されたサブドメイン URL を参照します。
+   * **[!UICONTROL ブランドサブドメイン]** とは、Adobeからのデリゲーションをリクエストされる、このブランドに固有の、指定されたサブドメイン URL を指します。
 
-  トラッキング、ミラー、アプリケーションサーバーの設定は、ルーティングに関連付けられた個別の外部アカウントに保存されます。 これらの設定は、プロビジョニング中に適用されるので、変更しないでください。 URL を表示するには、にアクセスします **[!UICONTROL ブランディングプレフィックス]** 外部アカウントから tab キーを押します。
+  トラッキング、ミラー、アプリケーションサーバーの設定は、ルーティングに関連付けられた個別の外部アカウントに保存されます。 これらの設定は、プロビジョニング中に適用されるので、変更しないでください。 URL を表示するには、外部アカウントから **[!UICONTROL ブランディングプレフィックス]** タブにアクセスします。
 
   ![](assets/branding_3.png)
 

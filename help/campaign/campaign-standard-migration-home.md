@@ -21,23 +21,23 @@ Campaign v8 に移行する Campaign Standard ユーザーは、新しいバー�
 * Adobe Experience Platformとの統合
 * 一貫したユーザーインターフェイスとエクスペリエンス
 
-主な機能と概念の違いについて詳しくは、次を参照してください。 [このページ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+主な機能と概念の違いについて詳しくは、[ このページ ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration) を参照してください。
 
 ## 最新情報
 
-が提供するすべての機能を確認する [Campaign Web ユーザーインターフェイス](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home) および [Campaign v8](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home).
+[Campaign web ユーザーインターフェイス ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home) および [Campaign v8](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home) で提供されるすべての機能を確認します。
 
 シームレスに移行できるように、Campaign Standardから v8 に主な機能を追加しました。
 
 >[!BEGINTABS]
 
->[!TAB 動的レポート]
+>[!TAB  動的レポート ]
 
 動的レポートにアクセスすると、完全にカスタマイズ可能なリアルタイムのレポートを提供して、マーケティングアクティビティの影響を測定できます。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](reporting/get-started-reporting.md)
 
->[!TAB ブランディングの一元化]
+>[!TAB  ブランディングの一元化 ]
 
 技術管理者は、1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。
 
@@ -61,7 +61,7 @@ Rest API を使用すると、Adobe Campaignと使用するテクノロジーの
     </td>
     <td>
     <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>ワークフローキャンバスを刷新</strong><br/></div><br/>
+    <div><strong> ワークフローキャンバスを刷新 </strong><br/></div><br/>
     </td>
     <td>
     <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>

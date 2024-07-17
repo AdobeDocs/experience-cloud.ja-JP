@@ -4,7 +4,8 @@ description: 開封数レポートでは、様々な条件に照らして、最�
 audience: end-user
 level: Intermediate
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: dcd794bb-05be-430f-868e-b63d242debc6
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 46%

@@ -2,13 +2,13 @@
 title: Adobe Campaign Web ユーザーインターフェイス
 description: 64 ビットテーブル
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 47b06a42fad73254025d8e21d14724f6fe93345b
+exl-id: ab5f01fd-4ad5-46e9-b132-011fe0f7bbd2
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # 64 ビットスキーマ {#64-bit-tables}
 
@@ -45,5 +45,3 @@ Campaign Standardから Campaign v8 への移行を容易にするために、�
 | nms:webEvent | broadLogSrc-id、broadLogRemkt-id |
 | nms:broadLogMid | mktBroadLogId |
 | nms:mirrorPageSearch | remoteMessageId |
-
-

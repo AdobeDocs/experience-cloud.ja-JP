@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -16,17 +17,17 @@ ht-degree: 0%
 
 # API を使用したプロファイルの作成 {#creating-profiles-api}
 
-プロファイルの作成は、次を使用して実行します **POST** プロファイルリソースに対するリクエスト。
+プロファイルの作成は、プロファイルリソースに対する **POST** リクエストで実行されます。
 
 >[!CAUTION]
 >
->を関連付ける <b>orgUnit</b> POST作成したプロファイルには、このフィールドでプロファイルリソースを拡張し、拡張機能を公開した後、 <b>ProfileAndServicesExt</b> エンドポイント。
+>作成したプロファイルに <b>orgUnit</b> を関連付ける場合は、このフィールドでプロファイルリソースを拡張し、拡張機能の公開後に <b>ProfileAndServicesExt</b> エンドポイントでPOSTリクエストを実行する必要があります。
 >
->プロファイルのリソース拡張機能について詳しくは、 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign ドキュメント</a>.
+>プロファイルのリソース拡張機能について詳しくは、<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign ドキュメント </a> を参照してください。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 「john.doe@mail.com」というメールを使用してプロファイルを作成するPOSTリクエストのサンプル。
 

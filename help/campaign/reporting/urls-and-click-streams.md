@@ -4,7 +4,8 @@ description: URL とクリックストリームの標準レポートでは、配
 level: Intermediate
 audience: end-user
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: bccd04f1-d4f2-474c-89eb-c0b1087a3946
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 6%
@@ -13,13 +14,13 @@ ht-degree: 6%
 
 # URL とクリックストリーム{#urls-and-click-streams}
 
-この **URL とクリックストリーム** 配信中に最もクリックされた URL や、キャンペーンまたはプログラムにリンクされている場合は複数の配信を表示します。
+**URL とクリックストリーム** には、配信中に最もクリックされた URL や、キャンペーンまたはプログラムにリンクされている場合は複数の配信が表示されます。
 
 ![](assets/delivery_reports_8.png)
 
 各テーブルは、概要番号とグラフで表されます。 それぞれのビジュアライゼーション設定で、詳細の表示方法を変更できます。
 
-この **最も訪問されたリンク** テーブルには、配信ごとの受信者の動作に使用できるデータが含まれています。以下に例を示します。
+**最も訪問されたリンク** テーブルには、配信ごとの受信者の行動に使用できるデータが含まれます。例えば、次のようなデータがあります。
 
 * **クリック**：配信でコンテンツがクリックされた回数。
 * **ユニーククリック数**：配信のコンテンツをクリックした受信者の数。
