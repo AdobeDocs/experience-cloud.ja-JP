@@ -7,18 +7,14 @@ role: Admin
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 18%
+source-wordcount: '471'
+ht-degree: 19%
 
 ---
 
 # ブランドの割り当て {#branding-assign}
-
->[!IMPORTANT]
->
->ブランディングオプションは、現在、メール配信とプッシュ配信に制限されています。
 
 ## テンプレートへのブランドのリンク {#linking-a-brand-to-a-template}
 
@@ -54,7 +50,7 @@ ht-degree: 18%
 
 >[!TAB Adobe Campaign Web]
 
-配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、最初からの配信テンプレートの作成を行います。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
+配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、最初からの配信テンプレートの作成を行います。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/delivery-template)
 
 テンプレートを作成したら、それをブランドにリンクできます。その手順は次のとおりです。
 

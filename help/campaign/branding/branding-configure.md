@@ -7,10 +7,10 @@ role: Admin
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 57%
+source-wordcount: '377'
+ht-degree: 42%
 
 ---
 
@@ -56,10 +56,8 @@ Adobe Campaign V8 では、ブランドは **[!UICONTROL 管理/プラットフ�
 
   ![](assets/branding_3.png)
 
-<!--![](assets/branding_05.png)-->
+* **[!UICONTROL トラッキング URL 設定]** メニューを使用すると、Adobe AnalyticsやGoogle Analyticsなどの web 分析ツールと統合するための追加パラメーターを定義することで、URL トラッキングを強化できます。
 
-<!--
-* **[!UICONTROL Tracking URL configs]**, which defines the configuration of the URLs tracking for your brand.
+  **[!UICONTROL 追加の URL パラメーター]** メニューを使用して、追加のパラメーターをキーと値のペアとして、適用性の条件と共に作成します。 各パラメーター名は一意で、空であってはならず、各パラメーター値は空であってはなりません。 適用条件は空にすることができますが、これらの値には JST タグを含めることはできません。
 
-  The additional parameters that allow the links to be tracked on external systems such as Web Analytics tools like Adobe Analytics or Google Analytics are defined here.
--->
+  これらのパラメーターは、「**[!UICONTROL ドメイン名のリスト]**」で指定されたドメイン名に一致するトラッキング対象 URL に適用されます。ドメイン名には、正規表現を含めることができます。

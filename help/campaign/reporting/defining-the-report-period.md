@@ -5,14 +5,18 @@ audience: end-user
 level: Intermediate
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
 
 # レポート期間の定義{#defining-the-report-period}
+
+>[!NOTE]
+>
+>データレポートは過去 13 か月間で使用できます。 データ保持期間について詳しくは、Adobeコンサルタントまたは技術管理者にお問い合わせください。
 
 レポートを開始またはアクセスする前に、期間を適用する必要があります。 指定された期間は、レポートの右上でアクセスできます。
 
