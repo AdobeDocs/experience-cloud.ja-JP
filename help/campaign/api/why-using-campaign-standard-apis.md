@@ -8,9 +8,9 @@ role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign Standardは、既存のシステムを Campaign プラットフ�
 
 * 見込み客オンライン登録。
 * 既存の顧客プロファイルとマーケティングコミュニケーション環境管理。
-* イベントベースのトランザクション通信トリガー – 注文の確認、予約の旅程、パスワードのリセットなど。
+  <!--* Event based transactional communication triggering – order confirmation, booking Itinerary, password reset, etc.-->
 * 買い物かごの放棄に関するメール通信も可能です。
 
 新規登録ランディングページは、顧客や見込み客が名前やメールアドレスを登録する方法を提供します。 Campaign Standardがプロファイル情報や環境設定を取得したら、ユーザーの興味に基づいてパーソナライズされたメッセージを送信できます。
