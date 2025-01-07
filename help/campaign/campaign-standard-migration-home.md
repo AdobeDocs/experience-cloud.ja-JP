@@ -3,10 +3,10 @@ title: Adobe Campaign Web ユーザーインターフェイス
 description: Adobe Campaign web ユーザーインターフェイスの確認
 badge: label="限定提供（LA）" type="Informative" url="campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
+source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,7 @@ Campaign v8 に移行する Campaign Standard ユーザーは、新しいバー�
 * Adobe Experience Platformとの統合
 * 一貫したユーザーインターフェイスとエクスペリエンス
 
-主な機能と概念の違いについて詳しくは、[ このページ ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration) を参照してください。
+主な機能と概念の違いについて詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration) を参照してください。
 
 ## 最新情報
 
@@ -56,7 +56,7 @@ Rest API を使用すると、Adobe Campaignと使用するテクノロジーの
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>新しいユーザーインターフェイスを確認</strong><br/></div>
     </td>
     <td>
@@ -73,9 +73,10 @@ Rest API を使用すると、Adobe Campaignと使用するテクノロジーの
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
+
