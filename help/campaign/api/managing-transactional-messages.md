@@ -4,20 +4,22 @@ description: API を使用してトランザクションメッセージを管理
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-hidefromtoc: true
-hide: true
 role: Data Engineer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # トランザクションメッセージの管理 {#managing-transactional-messages}
+
+>[!AVAILABILITY]
+>
+>現時点では、REST API を使用したトランザクションメッセージは、メールチャネルとトランザクションイベントでのみ使用できます（エンリッチメントデータは、Adobe Campaign V8 の動作と同様に、ペイロード経由でのみ使用できます）。
 
 トランザクションイベントを作成して公開したら、このイベントのトリガーを web サイトに統合する必要があります。
 
@@ -140,4 +142,3 @@ POSTリクエストへの応答。
 * **deliveryFailed**: イベントの処理中に配信エラーが発生しました。
 * **routingFailed**：ルーティングフェーズが失敗しました。これは、指定されたイベントのタイプが見つからない場合などに発生する可能性があります。
 * **tooOld**：処理可能になる前にイベントの有効期限が切れました。これは、様々な理由で発生する可能性があります。例えば、送信が数回失敗した場合（イベントが最新ではなくなる結果となる）、オーバーロードされた後にサーバーがイベントを処理できなくなった場合などです。
-* **targetingFailed**: Campaign Standardは、メッセージのターゲティングに使用されているリンクをエンリッチメントできませんでした。
