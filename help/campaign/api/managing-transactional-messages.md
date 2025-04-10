@@ -6,11 +6,11 @@ content-type: reference
 topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
+source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -19,36 +19,34 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->現時点では、REST API を使用したトランザクションメッセージは、メールチャネルとトランザクションイベントでのみ使用できます（エンリッチメントデータは、Adobe Campaign V8 の動作と同様に、ペイロード経由でのみ使用できます）。
+>現時点では、メールおよび SMS チャネルで、REST API を使用したトランザクションメッセージを使用できます。 トランザクションイベントでのみ使用できます（エンリッチメントデータは、Adobe Campaign V8 の動作方法と同様に、ペイロード経由でのみ使用できます）。
 
 トランザクションイベントを作成して公開したら、このイベントのトリガーを web サイトに統合する必要があります。
 
 例えば、クライアントの 1 人が Web サイトを離れてから買い物かごの商品を購入するたびに、「買い物かごの放棄」イベントをトリガーしたいとします。 これを行うには、web 開発者は、REST トランザクションメッセージ API を使用する必要があります。
 
-1. POSTメソッドに従ってリクエストを送信します。このメソッドは [ トランザクションイベントの送信 ](#sending-a-transactional-event) をトリガーにします。
-1. POSTリクエストへの応答にはプライマリキーが含まれており、GETリクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[ イベントステータス ](#transactional-event-status) を取得できるようになります。
+1. POST メソッドに従ってリクエストを送信します。このメソッドは [ トランザクションイベントの送信 ](#sending-a-transactional-event) をトリガーにします。
+1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[ イベントステータス ](#transactional-event-status) を取得できるようになります。
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 
-トランザクションイベントは、次の URL 構造を持つPOSTリクエストを介して送信されます。
+トランザクションイベントは、次のURL構造を持つPOST リクエストを介して送信されます。
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION>**：個人の組織 ID。 この[節](must-read.md)を参照してください。
+* **&lt;ORGANIZATION>**:個人の組織 ID。 &lt;/ORGANIZATION>この[節](must-read.md)を参照してください。
 
 * **&lt;transactionalAPI>**：トランザクションメッセージ API のエンドポイント。
 
-  トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります。 これは、値「mc」に続いて個人の組織 ID に対応します。 Geometrixx会社の例で、組織 ID として「geometrixx」を使用するとします。 その場合、POSTリクエストは次のようになります。
+  トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります。 これは、値「mc」に続いて個人の組織 ID に対応します。 Geometrixx会社の例で、組織 ID として「geometrixx」を使用します。 この場合、POST リクエストは次のようになります。
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-  なお、トランザクションメッセージ API エンドポイントは、API プレビュー中にも表示されます。
-
 * **&lt;eventID>**：送信するイベントのタイプ。 この ID は、イベント設定の作成時に生成されます
 
-### POSTリクエストヘッダー
+### POST リクエストヘッダー
 
 リクエストには、「Content-Type: application/json」ヘッダーが含まれている必要があります。
 
@@ -63,9 +61,9 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 -H 'Content-Length:79' \
 ```
 
-### POSTリクエスト本文
+### POST リクエスト本文
 
-イベントデータは JSON POST本文内に含まれます。 イベントの構造は定義によって異なります。 リソース定義画面の「API プレビュー」ボタンに、リクエストサンプルが表示されます。
+イベントデータは JSON POST 本文内に含まれます。 イベントの構造は定義によって異なります。
 
 イベントにリンクされたトランザクションメッセージの送信を管理するために、次のオプションのパラメーターをイベントコンテンツに追加できます。
 
@@ -76,9 +74,43 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 >
 >「expiration」パラメーターと「scheduled」パラメーターの値は、ISO 8601 形式に従います。 ISO 8601 では、大文字「T」を使用して日付と時刻を区切るように指定されています。 ただし、読みやすくするために、入力または出力から削除できます。
 
-### POSTリクエストへの応答
+### 通信チャネルパラメーター
 
-POSTレスポンスは、作成時のトランザクションイベントのステータスを返します。 現在のステータス（イベントデータ、イベントステータスなど）を取得するには、GETリクエストでPOSTレスポンスから返されるプライマリキーを使用します。
+使用するチャネルに応じて、ペイロードには、以下のパラメーターが含まれている必要があります。
+
+* メールチャネル:「mobilePhone」
+* SMS チャネル: &quot;email&quot;
+
+ペイロードに「mobilePhone」のみが含まれている場合は、SMS通信チャネルがトリガーされます。 ペイロードに「email」のみが含まれている場合は、電子メール通信チャネルがトリガーされます。
+
+次の例に、SMS 通信がトリガーされるペイロードを示します。
+
+```
+curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
+--header 'Authorization: Bearer <ACCESS_TOKEN>' \
+--header 'Cache-Control: no-cache' \
+--header 'X-Api-Key: <API_KEY>' \
+--header 'Content-Type: application/json;charset=utf-8' \
+--header 'Content-Length: 79' \
+--data '
+{
+  "mobilePhone":"+9999999999",
+  "scheduled":"2017-12-01 08:00:00.768Z",
+  "expiration":"2017-12-31 08:00:00.768Z",
+  "ctx":
+  {
+    "cartAmount": "$ 125",
+    "lastProduct": "Leather motorbike jacket",
+    "firstName": "Jack"
+  }
+}'
+```
+
+ペイロードに「email」と「mobilePhone」の両方が含まれている場合、デフォルトの通信方法は email です。 両方のフィールドが存在する場合に SMS を送信するには、「wishedChannel」パラメーターを使用して、ペイロードで明示的に指定する必要があります。
+
+### POST リクエストへの応答
+
+POST 応答は、作成時のトランザクションイベントステータスを返します。 現在のステータス（イベントデータ、イベントステータスなど）を取得するには、GET リクエストで POST レスポンスによって返されるプライマリキーを使用します。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +118,7 @@ POSTレスポンスは、作成時のトランザクションイベントのス�
 
 ***リクエストのサンプル***
 
-イベントを送信するためのPOSTリクエスト。
+イベントを送信するための POST リクエスト。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -97,7 +129,10 @@ POSTレスポンスは、作成時のトランザクションイベントのス�
 -H 'Content-Length:79'
 
 {
-  "email":"test@example.com",
+  "
+  
+  
+  ":"test@example.com",
   "scheduled":"2017-12-01 08:00:00.768Z",
   "expiration":"2017-12-31 08:00:00.768Z",
   "ctx":
@@ -109,7 +144,7 @@ POSTレスポンスは、作成時のトランザクションイベントのス�
 }
 ```
 
-POSTリクエストへの応答。
+POST リクエストへの応答。
 
 ```
 {
@@ -136,9 +171,9 @@ POSTリクエストへの応答。
 
 * **pending**：イベントは保留中です。イベントがトリガーされると、このステータスになります。
 * **処理中**：イベントは配信待ちです。イベントがメッセージに変換され、メッセージが送信されます。
-* **paused**：イベントプロセスが一時停止されています。 処理は行われなくなりましたが、Adobe Campaign データベースのキューに保持されます。
-* **processed**：イベントは処理され、メッセージは正常に送信されました。
-* **無視**：配信でイベントが無視されました（通常、アドレスが強制隔離されている場合）。
-* **deliveryFailed**: イベントの処理中に配信エラーが発生しました。
+* **paused**:イベントプロセスが一時停止中です。 処理は行われなくなりましたが、Adobe Campaign データベースのキューに保持されます。
+* **処理済み**:イベントが処理され、メッセージは正常に送信されました。
+* **ignored**: 通常、アドレスが強制隔離にある場合、イベントは配信によって無視されました。
+* **deliveryFailed**:イベントの処理中に配信エラーが発生しました。
 * **routingFailed**：ルーティングフェーズが失敗しました。これは、指定されたイベントのタイプが見つからない場合などに発生する可能性があります。
 * **tooOld**：処理可能になる前にイベントの有効期限が切れました。これは、様々な理由で発生する可能性があります。例えば、送信が数回失敗した場合（イベントが最新ではなくなる結果となる）、オーバーロードされた後にサーバーがイベントを処理できなくなった場合などです。
