@@ -26,7 +26,7 @@ ht-degree: 19%
 
 >[!TAB Adobe Campaign V8]
 
-配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、最初からの配信テンプレートの作成を行います。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
+配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、最初からの配信テンプレートの作成を行います。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/create-templates)
 
 テンプレートを作成したら、それをブランドにリンクできます。その手順は次のとおりです。
 
@@ -98,7 +98,7 @@ ht-degree: 19%
 
 1. 設定が完了したら「**OK**」を選択します。
 
-1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ メールのデザインと送信 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
+1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ メールのデザインと送信 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
 
 >[!TAB Adobe Campaign Web]
 
@@ -124,6 +124,6 @@ ht-degree: 19%
 
    ![](assets/branding_assign_web_7.png)
 
-1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ 最初のメールの作成 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
+1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ 最初のメールの作成 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
 
 >[!ENDTABS]

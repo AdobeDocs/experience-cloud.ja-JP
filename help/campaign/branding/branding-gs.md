@@ -26,7 +26,7 @@ ht-degree: 18%
 
 Campaign で組織の新しいエンティティを追加したり、新しいタイプのメールを作成したりできます。このメールは、別のサブドメインで送信する必要があります。 手順は次のとおりです。
 
-1. **新しいサブドメインの設定** - Adobeで新しいサブドメインを使用する場合、最初の手順としてそのサブドメインを設定します。 これは、[Campaign Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja) を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメイン設定について詳しくは [ このページ ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup) を参照してください。
+1. **新しいサブドメインの設定** - Adobeで新しいサブドメインを使用する場合、最初の手順としてそのサブドメインを設定します。 これは、[Campaign Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja) を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメイン設定について詳しくは [ このページ ](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup) を参照してください。
 
    >[!NOTE]
    >
