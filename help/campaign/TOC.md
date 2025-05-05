@@ -65,7 +65,7 @@ ht-degree: 71%
       + [プロファイルの取得](api/retrieving-profiles.md)
       + [プロファイルの更新](api/updating-profiles.md)
       + [プロファイルの作成](api/creating-profiles-api.md)
-   + サービスと購読 {#managing-services-and-subscriptiopns} の管理
+   + サービスと購読 の管理 {#managing-services-and-subscriptiopns}
       + [サービスの作成](api/creating-a-service.md)
       + [購読の取得](api/retrieving-subscriptions.md)
       + [購読の実行](api/perform-subscriptions.md)

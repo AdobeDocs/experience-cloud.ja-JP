@@ -73,7 +73,7 @@ API キーを作成できるのは、管理者である組織用のみです。 
 }
 ```
 
-* **message.io にリクエストを行うと、{&quot;code&quot;:500, &quot;Adobe&quot;:&quot;エラーが発生します。 エラーが発生しました。 URI を確認して、もう一度やり直してください。」**
+* **message.io にリクエストを行うと、&lbrace;&quot;code&quot;:500, &quot;Adobe&quot;:&quot;エラーが発生します。 エラーが発生しました。 URI を確認して、もう一度やり直してください。」**
 
 Adobe.io は無効な URI を宣言します：おそらく、要求している URI が無効です。 Adobe.io で Campaign サービスを選択すると、使用可能な organization_ids のリストを含むピッカーが表示されます。 選択したものが URL に入力したものであることを確認する必要があります。
 
