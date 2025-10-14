@@ -21,11 +21,11 @@ Campaign v8 に移行する Campaign Standard ユーザーは、新しいバー�
 * Adobe Experience Platformとの統合
 * 一貫したユーザーインターフェイスとエクスペリエンス
 
-主な機能と概念の違いについて詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration) を参照してください。
+主な機能と概念の違いについて詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration) を参照してください。
 
 ## 最新情報
 
-[Campaign web ユーザーインターフェイス ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home) および [Campaign v8](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home) で提供されるすべての機能を確認します。
+[Campaign web ユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home) および [Campaign v8](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home) で提供されるすべての機能を確認します。
 
 シームレスに移行できるように、Campaign Standardから v8 に主な機能を追加しました。
 

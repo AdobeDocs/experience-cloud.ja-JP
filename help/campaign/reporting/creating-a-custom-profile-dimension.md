@@ -28,7 +28,7 @@ ht-degree: 3%
 
    ![](assets/custom_field_1.png)
 
-1. カスタム受信者スキーマを特定して選択します。 組み込みの nms:recipient スキーマをまだ拡張していない場合は、[ この手順 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
+1. カスタム受信者スキーマを特定して選択します。 組み込みの nms:recipient スキーマをまだ拡張していない場合は、[&#x200B; この手順 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
 
 1. カスタムフィールドをスキーマエディターに追加します。
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. 次に、カスタム broadLogRcp スキーマを特定して選択します。 ビルトインの配信ログスキーマをまだ拡張していない場合は、[ この手順 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
+1. 次に、カスタム broadLogRcp スキーマを特定して選択します。 ビルトインの配信ログスキーマをまだ拡張していない場合は、[&#x200B; この手順 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
 
 1. 受信者スキーマと同じカスタムフィールドをスキーマエディターに追加します。
 

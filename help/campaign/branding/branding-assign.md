@@ -98,7 +98,7 @@ ht-degree: 19%
 
 1. 設定が完了したら「**OK**」を選択します。
 
-1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ メールのデザインと送信 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
+1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[&#x200B; メールのデザインと送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
 
 >[!TAB Adobe Campaign Web]
 
@@ -124,6 +124,6 @@ ht-degree: 19%
 
    ![](assets/branding_assign_web_7.png)
 
-1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[ 最初のメールの作成 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
+1. 配信をさらにパーソナライズします。 メールの作成について詳しくは、[&#x200B; 最初のメールの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/email/create-email) の節を参照してください。
 
 >[!ENDTABS]
