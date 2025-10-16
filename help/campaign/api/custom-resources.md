@@ -4,11 +4,11 @@ description: API を使用したカスタムリソース管理の詳細情報/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 カスタムリソースがプロファイルテーブルにリンクされている限り、カスタムリソースを使用してあらゆる操作を実行できます。 例えば、次のテーブル構造について考えてみましょう。
 
-![&#x200B; 代替テキスト &#x200B;](assets/cusresources.png)
+![ 代替テキスト ](assets/cusresources.png)
 
 この場合、**Profile** テーブルにリンクされている限り、**Transaction** テーブル、**TransactionDetails** テーブル、および **Product** テーブルのすべてのリソースを使用できます。
 
@@ -37,7 +37,7 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 ***リクエストのサンプル***
 
-拡張された profileAndServicesExt リソースにアクセスするためのサンプルGETリクエスト。
+拡張された profileAndServicesExt リソースにアクセスするGET リクエストのサンプル
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\

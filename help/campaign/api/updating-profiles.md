@@ -1,11 +1,11 @@
 ---
 title: プロファイルの更新
 description: API でプロファイルを更新する方法の詳細情報
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
@@ -20,15 +20,15 @@ ht-degree: 1%
 
 1. 最初の手順は、**プロファイルを取得** することです。
 
-1. 2 回目のリクエストで、ペイロードに完了情報を含めて **プロファイルに対して** PATCHリクエスト &rbrace; を実行します。
+1. 2 回目のリクエストで、ペイロードに完了情報を含めて **プロファイルに対して** PATCH リクエスト } を実行します。
 
-1. PATCHリクエストがプロファイルを更新したかどうかを確認するには、最終的なGETリクエストを実行します。
+1. PATCH リクエストがプロファイルを更新したかどうかを確認するには、最終的なGET リクエストを実行します。
 
 <br/>
 
 ***リクエストのサンプル***
 
-プロファイルを取得するサンプルGETリクエスト。
+プロファイルを取得するGET リクエストのサンプル
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -54,7 +54,7 @@ ht-degree: 1%
 }
 ```
 
-「phone」属性を更新するPATCHリクエスト。
+「phone」属性を更新するPATCH リクエスト。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

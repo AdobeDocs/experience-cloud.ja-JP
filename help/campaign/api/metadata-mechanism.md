@@ -4,11 +4,11 @@ description: 詳しくは、メタデータメカニズムを参照してくだ�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # メタデータのメカニズム {#metadata-mechanism}
 
-データリクエストで **resourceType** を使用して、リソースのメタGETを取得できます。
+GET リクエストで **resourceType** を使用して、リソースのメタデータを取得できます。
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -27,14 +27,14 @@ ht-degree: 1%
 
    * 「apiName」:API で使用される属性の名前。
    * 「type」：これは、高レベルのタイプ定義（文字列、数値、リンク、コレクション、列挙など）です。
-   * 「dataPolicy」：フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効なメールである必要があります。 dataPolicy は、PATCHまたはPOST中に値を確認したり、変換する値を変更したりできます（smartCase など）。
+   * 「dataPolicy」：フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効なメールである必要があります。 PATCHまたは POST の実行中に、dataPolicy は値をチェックしたり、変換する値を変更したりできます（smartCase など）。
    * 「カテゴリ」：クエリエディターのフィールドのカテゴリを示します。
    * &quot;resType&quot;：これは技術的なタイプです。
 
      「type」の値が「link」または「collection」で完了した場合、resTarget の値は、リンクのターゲットとなるリソースの名前になります。
 「type」に値「enumeration」が入力されている場合は、「values」フィールドが追加され、各列挙値について **values** ノードに詳しく記載されます。
 
-* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[&#x200B; この節 &#x200B;](filtering.md) を参照してください。
+* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[ この節 ](filtering.md) を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -45,7 +45,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***リクエストのサンプル***
 
-リソースでGETリクエストを実行します。
+リソースでGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

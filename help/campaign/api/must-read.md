@@ -4,11 +4,11 @@ description: API を使用する前に必ず読み取ってください。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 ## 技術的要件
 
 * Adobe Campaign API はサーバー間でのみ使用する必要があります。
-* 実装するユースケースがAdobe Campaign API で許可されているスケールに合致している場合は、常にAdobeの技術担当者にお問い合わせください。
-* AdobeIO アクセスの設定には特別な権限が必要です。問題が発生した場合は、Adobeサポートにお問い合わせください。
+* 実装するユースケースがAdobe API で許可されているスケールに合致している場合は、常にAdobe Campaignの技術担当者に確認してください。
+* AdobeIO アクセスの設定には特定の権限が必要です。問題が発生した場合は、Adobe サポートにお問い合わせください。
 
 ## 権限とアクセス
 
 * デフォルトでは、Adobe Campaign API は Administrator コンテキストを使用するので、組織単位とロールは適用されません。
 * Adobe Campaign API は、役割のコンテキストから除外されます。
-* 1 人または複数の組織単位で API を設定する場合は、最初にAdobeの技術担当者にお問い合わせください。
+* 1 人または複数の組織単位の役割で API を設定する場合は、最初にAdobeへの技術担当者にお問い合わせください。
 
 ## リソース表示域
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-キー値が元のキーと異なる場合や、Adobeが提供するキーの代わりに独自のビジネスキーを URI として使用している場合、PATCHの操作を使用してカスタムキーを変更することはできません。
+キー値がオリジンキーと異なる場合や、Adobeから提供されるキーの代わりに独自のビジネスキーを URI として使用している場合、PATCHの操作を使用してカスタムキーを変更することはできません。
 
 カスタムキーは、**最上位のプロファイルリソース** にのみ使用します。 URL は API によって返され、決して自分で作成しないでください。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-返された購読 URL に対してGETリクエストを実行します。
+返された購読 URL に対してGET リクエストを実行します。
 
 ```
 -X GET <SUBSCRIPTION_URL> \

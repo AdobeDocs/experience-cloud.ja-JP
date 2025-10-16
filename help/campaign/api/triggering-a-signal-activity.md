@@ -4,11 +4,11 @@ description: API を使用してシグナルアクティビティをトリガー
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Adobe Campaign Standardのワークフローには、1 つ以上の **外部シグナル** アクティビティが存在する場合があります。 これらのアクティビティは、トリガーされるのを待つ「リスナー」です。
 
-Campaign StandardAPI を使用すると、**外部シグナル** アクティビティをトリガーして、ワークフローを呼び出すことができます。 API 呼び出しには、ワークフローのイベント変数に取り込まれるパラメーター（ターゲットにするオーディエンス名、読み込むファイル名、メッセージコンテンツの一部など）を含めることができます。 これにより、Campaign の自動化を外部システムと簡単に統合できます。
+Campaign Standard API を使用すると、**外部シグナル** アクティビティをトリガーして、ワークフローを呼び出すことができます。 API 呼び出しには、ワークフローのイベント変数に取り込まれるパラメーター（ターゲットにするオーディエンス名、読み込むファイル名、メッセージコンテンツの一部など）を含めることができます。 これにより、Campaign の自動化を外部システムと簡単に統合できます。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Campaign StandardAPI を使用すると、**外部シグナル** アクティビ
 
 ワークフローをトリガーするには、次の手順に従います。
 
-1. ワークフローで **GET** リクエストを実行し、外部シグナルアクティビティのトリガー URL を取得します。
+1. ワークフローで **GET** リクエストを実行して、外部シグナルアクティビティのトリガー URL を取得します。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
@@ -62,7 +62,7 @@ Campaign StandardAPI を使用すると、**外部シグナル** アクティビ
 
 ***リクエストのサンプル***
 
-ワークフローでGETリクエストを実行します。
+ワークフローでGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -91,7 +91,7 @@ Campaign StandardAPI を使用すると、**外部シグナル** アクティビ
 }
 ```
 
-シグナルアクティビティをトリガーするには、「source」を持つトリガー url でPOSTリクエストを実行します。 パラメーターを使用してワークフローを呼び出す場合は、「parameters」属性を追加します。
+シグナルアクティビティをトリガーするには、「source」を持つトリガー URL で POST リクエストを実行します。 パラメーターを使用してワークフローを呼び出す場合は、「parameters」属性を追加します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +115,7 @@ Campaign StandardAPI を使用すると、**外部シグナル** アクティビ
 
 <!-- + réponse -->
 
-パラメーターの 1 つが外部シグナル アクティビティで宣言されていない場合、POSTリクエストは次のエラーを返し、どのパラメーターが欠落しているかを示します。
+パラメーターの 1 つが外部シグナル アクティビティで宣言されていない場合、POST リクエストは以下のエラーを返し、どのパラメーターが欠落しているかを示します。
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

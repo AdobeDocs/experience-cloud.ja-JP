@@ -1,11 +1,11 @@
 ---
 title: 購読の実行
 description: API を使用して購読を実行する方法を説明します
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 方法 1：プロファイルのサービスへの購読
 
-GETリクエストを実行して、プロファイルを取得します。
+GET リクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ GETリクエストを実行して、プロファイルを取得します。
   }
 ```
 
-購読 URL に対して、ペイロード内の目的のサービスプライマリキーを使用してPOSTリクエストを実行します。
+購読 URL に対して、ペイロード内の目的のサービスプライマリキーを使用して POST リクエストを実行します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -69,7 +69,7 @@ GETリクエストを実行して、プロファイルを取得します。
 
 ## 方法 2：サービスの購読者へのプロファイルの追加
 
-GETリクエストを実行して、サービスを取得します。
+GET リクエストを実行して、サービスを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -93,7 +93,7 @@ GETリクエストを実行して、サービスを取得します。
   },
 ```
 
-ペイロード内の目的のプロファイルプライマリキーを使用して、購読 URL に対してPOSTリクエストを実行します。
+購読 URL で、ペイロード内の目的のプロファイルプライマリキーを使用して POST リクエストを実行します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

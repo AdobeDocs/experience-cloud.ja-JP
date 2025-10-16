@@ -4,11 +4,11 @@ description: API を使用したカスタムリソース管理の詳細情報/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 GET /customResources/resourceType/<customResourceName>
 ```
 
-作成、更新、削除を行うには、GET、POST、PATCH、DELETEを使用します。
+作成、更新または削除を実行するには、GET、POST、PATCH、DELETEを使用します。
 
 ```
 POST /customResources/<customResourceName>

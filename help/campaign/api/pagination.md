@@ -4,11 +4,11 @@ description: ページネーション操作の実行方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ***リクエストのサンプル***
 
-プロファイルリソースの 1 件のレコードを表示するサンプルGETリクエスト。
+プロファイルリソースの 1 つのレコードを表示するGET リクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -74,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->テーブルが大きいと見なされるレコード数は、Campaign Standard **XtkBigTableThreshold** オプションで定義されます。 デフォルト値は 100,000 レコードです。
+>テーブルの大きさが上位にあると見なされるレコード数は、Campaign Standard **XtkBigTableThreshold** オプションで定義されます。 デフォルト値は 100,000 レコードです。

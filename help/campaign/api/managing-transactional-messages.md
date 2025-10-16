@@ -4,11 +4,11 @@ description: API を使用してトランザクションメッセージを管理
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
@@ -25,18 +25,18 @@ ht-degree: 1%
 
 例えば、クライアントの 1 人が Web サイトを離れてから買い物かごの商品を購入するたびに、「買い物かごの放棄」イベントをトリガーしたいとします。 これを行うには、web 開発者は、REST トランザクションメッセージ API を使用する必要があります。
 
-1. POST メソッドに従ってリクエストを送信します。このメソッドは [&#x200B; トランザクションイベントの送信 &#x200B;](#sending-a-transactional-event) をトリガーにします。
-1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[&#x200B; イベントステータス &#x200B;](#transactional-event-status) を取得できるようになります。
+1. POST メソッドに従ってリクエストを送信します。このメソッドは [ トランザクションイベントの送信 ](#sending-a-transactional-event) をトリガーにします。
+1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[ イベントステータス ](#transactional-event-status) を取得できるようになります。
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 
-トランザクションイベントは、次のURL構造を持つPOST リクエストを介して送信されます。
+トランザクションイベントは、次の URL 構造を持つ POST リクエストを介して送信されます。
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION>**:個人の組織 ID。 &lt;/ORGANIZATION>この[節](must-read.md)を参照してください。
+* **&lt;ORGANIZATION>**：個人の組織 ID。 この[節](must-read.md)を参照してください。
 
 * **&lt;transactionalAPI>**：トランザクションメッセージ API のエンドポイント。
 
@@ -78,10 +78,10 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 使用するチャネルに応じて、ペイロードには、以下のパラメーターが含まれている必要があります。
 
-* メールチャネル:「mobilePhone」
-* SMS チャネル: &quot;email&quot;
+* E メールチャネル：「mobilePhone」
+* SMS チャネル：「メール」
 
-ペイロードに「mobilePhone」のみが含まれている場合は、SMS通信チャネルがトリガーされます。 ペイロードに「email」のみが含まれている場合は、電子メール通信チャネルがトリガーされます。
+ペイロードに「mobilePhone」のみが含まれている場合、SMS 通信チャネルがトリガーされます。 ペイロードに「メール」のみが含まれている場合は、メール通信チャネルがトリガーされます。
 
 次の例に、SMS 通信がトリガーされるペイロードを示します。
 
@@ -171,9 +171,9 @@ POST リクエストへの応答。
 
 * **pending**：イベントは保留中です。イベントがトリガーされると、このステータスになります。
 * **処理中**：イベントは配信待ちです。イベントがメッセージに変換され、メッセージが送信されます。
-* **paused**:イベントプロセスが一時停止中です。 処理は行われなくなりましたが、Adobe Campaign データベースのキューに保持されます。
-* **処理済み**:イベントが処理され、メッセージは正常に送信されました。
-* **ignored**: 通常、アドレスが強制隔離にある場合、イベントは配信によって無視されました。
-* **deliveryFailed**:イベントの処理中に配信エラーが発生しました。
+* **paused**：イベントプロセスが一時停止されています。 処理は行われなくなりましたが、Adobe Campaign データベースのキューに保持されます。
+* **processed**：イベントは処理され、メッセージは正常に送信されました。
+* **無視**：配信でイベントが無視されました（通常、アドレスが強制隔離されている場合）。
+* **deliveryFailed**: イベントの処理中に配信エラーが発生しました。
 * **routingFailed**：ルーティングフェーズが失敗しました。これは、指定されたイベントのタイプが見つからない場合などに発生する可能性があります。
 * **tooOld**：処理可能になる前にイベントの有効期限が切れました。これは、様々な理由で発生する可能性があります。例えば、送信が数回失敗した場合（イベントが最新ではなくなる結果となる）、オーバーロードされた後にサーバーがイベントを処理できなくなった場合などです。
