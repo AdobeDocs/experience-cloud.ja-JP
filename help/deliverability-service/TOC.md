@@ -3,10 +3,10 @@ user-guide-title: アドビの配信品質サービス管理
 user-guide-description: アドビの配信品質サービス
 breadcrumb-title: アドビの配信品質サービス
 hide: true
-source-git-commit: e52b82bd3f81fb68831ccbd1038e0187d1672595
+source-git-commit: cfdca7ed165ac603341373eaeea7397dc76d8630
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 100%
+source-wordcount: '20'
+ht-degree: 85%
 
 ---
 
@@ -14,3 +14,4 @@ ht-degree: 100%
 
 * [ホーム](home.md)
 * [グローバル抑制リスト](global-suppression-list.md)
+* [非表示のテスト記事](hidden-test.md)
