@@ -4,9 +4,9 @@ user-guide-description: アドビの配信品質サービス
 breadcrumb-title: アドビの配信品質サービス
 hide: true
 source-git-commit: cfdca7ed165ac603341373eaeea7397dc76d8630
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
