@@ -17,7 +17,7 @@ ht-degree: 3%
 
 購読する前に、以下を確認してください。
 
-* アプリケーションはExperience Rollouts コンソールでオンボーディングされます。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
+* アプリケーションはExperience Rollouts コンソールでオンボーディングされます。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
 * お客様の組織のAdobe Developer Consoleにアクセスできます
 
 ## Experience Rollouts APIの購入 {#subscribe}

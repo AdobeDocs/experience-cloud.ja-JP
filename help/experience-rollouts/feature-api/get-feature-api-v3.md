@@ -67,8 +67,8 @@ ht-degree: 9%
 | `json_version` | 文字列 | JSON スキーマバージョン。 内部フィールド – 処理は必要ありません。 |
 | `ttl` | 整数 | TTLを数秒でキャッシュします。 `x-adobe-fg-poll-interval`応答ヘッダーと同じ値です。 デフォルト：300。 |
 | `caching_enabled` | ブール | `true`の場合、機能の評価はクライアント上でローカルに行われます。 `false`の場合、評価は各リクエストでサーバーサイドで行われます。 |
-| `client_analytics_params` | オブジェクト | アプリケーションの分析設定。 以下の[client_analytics_params フィールド ](#client-analytics-params)を参照してください。 |
-| `releases` | 配列 | ユーザーが対象とするリリースと機能フラグのリスト。 以下の[ リリースフィールド ](#releases-fields)を参照してください。 |
+| `client_analytics_params` | オブジェクト | アプリケーションの分析設定。 以下の[client_analytics_params フィールド &#x200B;](#client-analytics-params)を参照してください。 |
+| `releases` | 配列 | ユーザーが対象とするリリースと機能フラグのリスト。 以下の[&#x200B; リリースフィールド &#x200B;](#releases-fields)を参照してください。 |
 
 #### client_analytics_params フィールド {#client-analytics-params}
 
@@ -86,7 +86,7 @@ ht-degree: 9%
 | `bit_index` | リリースビットインデックス。 負の値は、フルロールアウト状態を示します。 |
 | `features` | ユーザーが対象とする機能フラグキーの配列。 機能キーは、ユーザーが資格を持ち、フラグが有効な状態にある場合にのみ返されます。 これは、アプリケーションロジックを構築する必要がある主要なフィールドです。 |
 | `meta` | オプションのBase64 エンコードされたメタデータが機能に関連付けられます。 使用する前にデコードします。 |
-| `release_analytics_params` | 各対象機能のAnalytics メタデータオブジェクトの配列。 以下の[release_analytics_params フィールド ](#release-analytics-params)を参照してください。 コントロール グループのシナリオでは、`features`は空です。 |
+| `release_analytics_params` | 各対象機能のAnalytics メタデータオブジェクトの配列。 以下の[release_analytics_params フィールド &#x200B;](#release-analytics-params)を参照してください。 コントロール グループのシナリオでは、`features`は空です。 |
 
 #### release_analytics_params フィールド {#release-analytics-params}
 

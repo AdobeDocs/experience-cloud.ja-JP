@@ -19,11 +19,11 @@ ht-degree: 3%
 
 **Java**
 
-セットアップ、依存関係の設定、および初期化については、[Java SDK統合ガイド ](../sdk-releases/java/java-sdk-integration-guide.md)に従ってください。
+セットアップ、依存関係の設定、および初期化については、[Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md)に従ってください。
 
 **Node.js**
 
-セットアップと初期化については、[Node.js SDK統合ガイド ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)に従ってください。
+セットアップと初期化については、[Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)に従ってください。
 
 **その他の言語**
 
@@ -43,7 +43,7 @@ Webおよびモバイルアプリケーションは&#x200B;**Feature API V3**&#x
 
 >[!IMPORTANT]
 >
->デスクトップクライアントは、API応答のTTL値を尊重し、APIが使用できないときに適切なエラー処理を実装する必要があります。 要件については、[ デスクトップアプリケーション ](desktop-applications.md)を参照してください。
+>デスクトップクライアントは、API応答のTTL値を尊重し、APIが使用できないときに適切なエラー処理を実装する必要があります。 要件については、[&#x200B; デスクトップアプリケーション &#x200B;](desktop-applications.md)を参照してください。
 
 ## 関連トピック {#see-also}
 

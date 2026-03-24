@@ -73,8 +73,8 @@ ht-degree: 12%
 
 | フィールド | 説明 |
 |---|---|
-| `releases` | ユーザーが対象とするリリースの配列。 以下の[ リリースフィールド ](#releases-fields)を参照してください。 |
-| `client_analytics_params` | Analytics設定オブジェクト。 以下の[client_analytics_params フィールド ](#analytics-fields)を参照してください。 |
+| `releases` | ユーザーが対象とするリリースの配列。 以下の[&#x200B; リリースフィールド &#x200B;](#releases-fields)を参照してください。 |
+| `client_analytics_params` | Analytics設定オブジェクト。 以下の[client_analytics_params フィールド &#x200B;](#analytics-fields)を参照してください。 |
 
 #### リリースフィールド {#releases-fields}
 

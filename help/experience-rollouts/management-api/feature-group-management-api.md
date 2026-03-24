@@ -67,7 +67,7 @@ ht-degree: 16%
 
 ### リクエスト本文 {#create-request-body}
 
-リクエスト本文は[機能グループオブジェクト ](#feature-group-object)を使用します。 `params`内の`rolloutType`は必須であり、ペイロードの構造を決定します。
+リクエスト本文は[機能グループオブジェクト &#x200B;](#feature-group-object)を使用します。 `params`内の`rolloutType`は必須であり、ペイロードの構造を決定します。
 
 **サンプル – 手動ロールアウト：**
 
@@ -117,7 +117,7 @@ ht-degree: 16%
 | ステータス | 説明 |
 |---|---|
 | `200` | 成功です。 応答本文は、作成された機能グループオブジェクトです。 |
-| `400` | ペイロードが無効です。詳しくは、[ エラーメッセージ ](#error-messages)を参照してください。 |
+| `400` | ペイロードが無効です。詳しくは、[&#x200B; エラーメッセージ &#x200B;](#error-messages)を参照してください。 |
 | `403` | 不十分な権限： |
 
 ## 機能グループを更新 {#update-group}
@@ -188,8 +188,8 @@ ht-degree: 16%
 | `org` | オブジェクト | 組織の詳細： `id`を含める必要があります。 | ○ |
 | `params` | オブジェクト | グループパラメーター：`rolloutType` は必須です（`"manual"`、`"automated"`または`"ab-testing"`）。 `label`と`tags`もサポートしています。 | ○ |
 | `audience` | 配列 | 手動ロールアウトタイプのオーディエンスルール。 | × |
-| `variations` | 配列 | バリエーションのリスト： [FeatureGroupVariation オブジェクト ](#featuregroupvariation-object)を参照してください。 | × |
-| `phaseRollOutPlan` | オブジェクト | フェーズの導入計画： 自動化されたA/B テストの種類に必要です。 [PhaseRollOutPlan オブジェクト ](#phaserolloutplan-object)を参照してください。 | 条件 |
+| `variations` | 配列 | バリエーションのリスト： [FeatureGroupVariation オブジェクト &#x200B;](#featuregroupvariation-object)を参照してください。 | × |
+| `phaseRollOutPlan` | オブジェクト | フェーズの導入計画： 自動化されたA/B テストの種類に必要です。 [PhaseRollOutPlan オブジェクト &#x200B;](#phaserolloutplan-object)を参照してください。 | 条件 |
 | `description` | 文字列 | オプションの表示説明。 最大225文字。 | × |
 
 ### FeatureGroupVariation オブジェクト {#featuregroupvariation-object}

@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Node.js SDK リリースノート {#nodejs-sdk-release-notes}
 
-このページでは、Experience Rollouts Node.js SDKのリリース履歴を示します。 統合の設定については、[Node.js SDK統合ガイド ](nodejs-sdk-integration-guide.md)を参照してください。
+このページでは、Experience Rollouts Node.js SDKのリリース履歴を示します。 統合の設定については、[Node.js SDK統合ガイド &#x200B;](nodejs-sdk-integration-guide.md)を参照してください。
 
 ## バージョン 1.0.10 {#v1-0-10}
 

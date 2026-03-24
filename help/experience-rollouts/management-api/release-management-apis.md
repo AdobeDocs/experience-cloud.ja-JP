@@ -44,7 +44,7 @@ ht-degree: 14%
 
 | ステータス | 説明 |
 |---|---|
-| `200` | 成功です。 応答本文はリリースオブジェクトです。[ リリースオブジェクト参照](#release-object)を参照してください。 |
+| `200` | 成功です。 応答本文はリリースオブジェクトです。[&#x200B; リリースオブジェクト参照](#release-object)を参照してください。 |
 | `400` | 無効なリリース IDまたは形式が正しくないリクエストです。 |
 
 ## リリースを作成 {#create-release}
@@ -58,7 +58,7 @@ ht-degree: 14%
 
 ### リクエスト本文 {#create-request-body}
 
-リクエスト本文では、[ リリースオブジェクト ](#release-object)を使用しています。 作成するには、チーム間の機能グループ （`CROSS_TEAM_FEATURE_GROUP` タイプ）の`status`を`"SAVED"`に、標準リリース （`RELEASE` タイプ）の`"DRAFT"`に設定する必要があります。
+リクエスト本文では、[&#x200B; リリースオブジェクト &#x200B;](#release-object)を使用しています。 作成するには、チーム間の機能グループ （`CROSS_TEAM_FEATURE_GROUP` タイプ）の`status`を`"SAVED"`に、標準リリース （`RELEASE` タイプ）の`"DRAFT"`に設定する必要があります。
 
 **サンプル – チーム間の機能グループの作成：**
 
@@ -118,9 +118,9 @@ ht-degree: 14%
 | `type` | 文字列 | 標準リリースの`"RELEASE"`、チーム間の機能グループの`"CROSS_TEAM_FEATURE_GROUP"`。 | ○ |
 | `status` | 文字列 | リリースの状態： IMSの場合：作成時に`"DRAFT"`、更新時に`"DRAFT"`、`"SAVED"`、`"PUBLISHED"`。 CTFGの場合：作成時に`"SAVED"`、更新時に`"SAVED"`、`"PUBLISHED"`。 | ○ |
 | `clients` | 配列 | このリリースに関連するアプリケーション。 各エントリには`id` （数値）と`imsClientId` （文字列）が必要です。 | × |
-| `audience` | 配列 | オーディエンスルールのリスト。 [条件オブジェクト ](feature-flags-management-api.md#condition-object)を参照してください。 | × |
+| `audience` | 配列 | オーディエンスルールのリスト。 [条件オブジェクト &#x200B;](feature-flags-management-api.md#condition-object)を参照してください。 | × |
 | `variations` | 配列 | バリエーションのリスト： 送信中にサポートされるバリエーションは1つだけです。 | 送信に必要 |
-| `params` | オブジェクト | リリースパラメーター： [ サポートされているパラメーターのフィールド ](#supported-params)を参照してください。 | 送信に必要 |
+| `params` | オブジェクト | リリースパラメーター： [&#x200B; サポートされているパラメーターのフィールド &#x200B;](#supported-params)を参照してください。 | 送信に必要 |
 | `org` | オブジェクト | 組織オブジェクト： `id`を含める必要があります。 | × |
 
 ### サポートされているパラメーターのフィールド {#supported-params}

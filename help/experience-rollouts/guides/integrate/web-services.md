@@ -17,8 +17,8 @@ ht-degree: 9%
 
 | 言語 | 統合ガイド | リリースノート |
 |---|---|---|
-| **Java** | [Java SDK統合ガイド ](../sdk-releases/java/java-sdk-integration-guide.md) | [Java SDK リリースノート ](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Node.js** | [Node.js SDK統合ガイド ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Node.js SDK リリースノート ](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+| **Java** | [Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) | [Java SDK リリースノート &#x200B;](../sdk-releases/java/java-sdk-release-notes.md) |
+| **Node.js** | [Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Node.js SDK リリースノート &#x200B;](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
 
 ## その他の言語 {#other-languages}
 

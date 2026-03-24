@@ -19,8 +19,8 @@ Java SDKを統合する前に、次のことを確認してください。
 
 * JDK 11以降（SDK バージョン 3.0.0以降で必要。以前のバージョンはJDK 8以降をサポート）
 * Maven ベースのビルドシステム
-* Adobe Developer Console プロジェクトの&#x200B;**API キー**&#x200B;および&#x200B;**サービストークン**&#x200B;のクライアント ID — [API アプリケーションのサブスクリプション ](../../integrate/subscribe-to-api-application.md)を参照
-* Experience Rollouts コンソールに登録されている&#x200B;**アプリケーションクライアント ID**&#x200B;は、[ アプリケーションのオンボーディング ](../../applications/onboard-your-application.md)を参照してください。
+* Adobe Developer Console プロジェクトの&#x200B;**API キー**&#x200B;および&#x200B;**サービストークン**&#x200B;のクライアント ID — [API アプリケーションのサブスクリプション &#x200B;](../../integrate/subscribe-to-api-application.md)を参照
+* Experience Rollouts コンソールに登録されている&#x200B;**アプリケーションクライアント ID**&#x200B;は、[&#x200B; アプリケーションのオンボーディング &#x200B;](../../applications/onboard-your-application.md)を参照してください。
 
 ## Maven依存関係の追加 {#maven-dependency}
 

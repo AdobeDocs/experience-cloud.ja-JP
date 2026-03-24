@@ -19,4 +19,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->エクスペリエンスのロールアウトでは、機能フラグは機能制御の最もアトミックな単位です。 単独で使用して、1つの機能をターゲットにしたり、[機能グループ ](feature-groups-to-control-multiple-features.md)または[ リリース ](release-management.md)の他のフラグと組み合わせたりできます。
+>エクスペリエンスのロールアウトでは、機能フラグは機能制御の最もアトミックな単位です。 単独で使用して、1つの機能をターゲットにしたり、[機能グループ &#x200B;](feature-groups-to-control-multiple-features.md)または[&#x200B; リリース &#x200B;](release-management.md)の他のフラグと組み合わせたりできます。

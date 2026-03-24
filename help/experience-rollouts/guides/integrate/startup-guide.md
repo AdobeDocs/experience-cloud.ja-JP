@@ -15,11 +15,11 @@ ht-degree: 1%
 
 ## 手順1：アクセスのリクエスト {#step-1-access}
 
-Experience Rollouts コンソールへのアクセスをリクエストし、チームに参加します。 詳細な手順については、[ アクセスを要求](../console/request-access.md)を参照してください。
+Experience Rollouts コンソールへのアクセスをリクエストし、チームに参加します。 詳細な手順については、[&#x200B; アクセスを要求](../console/request-access.md)を参照してください。
 
 ## 手順2：アプリケーションのオンボーディング {#step-2-onboard}
 
-アクセスを取得したら、Experience Rollouts コンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
+アクセスを取得したら、Experience Rollouts コンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
 
 オンボーディングの前に、次の手順に従います。
 
@@ -31,7 +31,7 @@ Experience Rollouts コンソールへのアクセスをリクエストし、チ
 
 ## 手順3:Experience Rollouts APIの購読 {#step-3-subscribe}
 
-Adobe Developer Consoleを介してExperience Rollouts APIを購読し、アプリケーションが機能フラグエンドポイントを呼び出せるようにします。 Adobe Developer Console](subscribe-to-api-application.md)でのAPI アプリケーションの登録を参照してください。[
+Adobe Developer Consoleを介してExperience Rollouts APIを購読し、アプリケーションが機能フラグエンドポイントを呼び出せるようにします。 Adobe Developer Console[&#128279;](subscribe-to-api-application.md)でのAPI アプリケーションの登録を参照してください。
 
 >[!NOTE]
 >

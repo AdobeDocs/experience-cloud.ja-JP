@@ -30,7 +30,7 @@ ht-degree: 14%
 
 | パラメーター | タイプ | 説明 | 必須 |
 |---|---|---|---|
-| `clientId` | 整数 | アプリケーションの数値ID。 [ クライアント IDの取得](get-client-id.md)を参照してください。 `imsClientId`が指定されていない場合は必須です。 | 条件 |
+| `clientId` | 整数 | アプリケーションの数値ID。 [&#x200B; クライアント IDの取得](get-client-id.md)を参照してください。 `imsClientId`が指定されていない場合は必須です。 | 条件 |
 | `imsClientId` | 文字列 | アプリケーションの文字列形式のクライアント ID。 `clientId`が指定されていない場合は必須です。 | 条件 |
 | `nonReleaseFeature` | ブール | グループまたはリリースに関連付けられていない独立した機能フラグを含めるには、`true`に設定します。 API ベースのワークフローに必要です。 | ○ |
 
@@ -87,7 +87,7 @@ ht-degree: 14%
 
 | ステータス | 説明 |
 |---|---|
-| `200` | 成功です。 応答本文は、単一の[FeatureDTO オブジェクト ](#featuredto-object)です。 |
+| `200` | 成功です。 応答本文は、単一の[FeatureDTO オブジェクト &#x200B;](#featuredto-object)です。 |
 | `400` | 無効な機能ID。 |
 
 ## 機能フラグを作成 {#create-feature}
@@ -101,12 +101,12 @@ ht-degree: 14%
 
 ### リクエスト本文 {#create-request-body}
 
-リクエスト本文は[FeatureDTO オブジェクト ](#featuredto-object)です。 作成には次のフィールドが必要です。
+リクエスト本文は[FeatureDTO オブジェクト &#x200B;](#featuredto-object)です。 作成には次のフィールドが必要です。
 
 | フィールド | 必須 | メモ |
 |---|---|---|
 | `name` | ○ | 機能フラグキー。 最大50文字。 パターン：`^[a-zA-Z0-9_.-]*$` |
-| `clientId` | ○ | 数値アプリケーション ID。 [ クライアント IDの取得](get-client-id.md)を参照してください。 |
+| `clientId` | ○ | 数値アプリケーション ID。 [&#x200B; クライアント IDの取得](get-client-id.md)を参照してください。 |
 | `state` | ○ | `"enabled"` または `"disabled"` |
 
 ### 応答 {#create-response}
@@ -141,7 +141,7 @@ ht-degree: 14%
 
 ## 機能フラグを更新 {#update-feature}
 
-既存の機能フラグを更新します。 `id` フィールドを含む完全な[FeatureDTO オブジェクト ](#featuredto-object)を渡します。
+既存の機能フラグを更新します。 `id` フィールドを含む完全な[FeatureDTO オブジェクト &#x200B;](#featuredto-object)を渡します。
 
 | | |
 |---|---|
@@ -183,8 +183,8 @@ ht-degree: 14%
 | `state` | 文字列 | `"enabled"` または `"disabled"` | ○ |
 | `meta` | 文字列 | API応答の機能で返されるBase64 エンコードされたメタデータ。 最大1024文字。 | × |
 | `description` | 文字列 | 説明を表示します。 最大225文字。 | × |
-| `audience` | 配列 | オーディエンスルールのリスト。 [FeatureRule オブジェクト ](#featurerule-object)を参照してください。 この生成には、[目的のオーディエンス条件を取得](get-audience-criteria.md)を使用します。 | × |
-| `variations` | 配列 | バリエーションのリスト： 最大3。 [FeatureVariation オブジェクト ](#featurevariation-object)を参照してください。 | × |
+| `audience` | 配列 | オーディエンスルールのリスト。 [FeatureRule オブジェクト &#x200B;](#featurerule-object)を参照してください。 この生成には、[目的のオーディエンス条件を取得](get-audience-criteria.md)を使用します。 | × |
+| `variations` | 配列 | バリエーションのリスト： 最大3。 [FeatureVariation オブジェクト &#x200B;](#featurevariation-object)を参照してください。 | × |
 | `params` | オブジェクト | 追加のメタデータ： サポートされているキー：`label` （UIの表示名）、`tags` （文字列配列）。 | × |
 | `release` | オブジェクト | リリース/グループの関連付け：`null` フラグがグループ内にない場合。 読み取り専用： | × |
 
@@ -201,7 +201,7 @@ ht-degree: 14%
 | フィールド | タイプ | 説明 | 必須 |
 |---|---|---|---|
 | `id` | 整数 | ルール ID。 更新呼び出しにのみ必要です。 新しいルールの追加時に`null`に設定します。 | 条件 |
-| `criteria` | オブジェクト | オーディエンスルールを定義する条件オブジェクト。 [条件オブジェクト ](#condition-object)を参照してください。 | ○ |
+| `criteria` | オブジェクト | オーディエンスルールを定義する条件オブジェクト。 [条件オブジェクト &#x200B;](#condition-object)を参照してください。 | ○ |
 
 ### 状況オブジェクト {#condition-object}
 

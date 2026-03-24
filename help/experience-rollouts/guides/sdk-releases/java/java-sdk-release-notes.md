@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # Java SDK リリースノート {#java-sdk-release-notes}
 
-このページには、Experience Rollouts Java SDKのリリース履歴が一覧表示されます。 統合の設定については、[Java SDK統合ガイド ](java-sdk-integration-guide.md)を参照してください。
+このページには、Experience Rollouts Java SDKのリリース履歴が一覧表示されます。 統合の設定については、[Java SDK統合ガイド &#x200B;](java-sdk-integration-guide.md)を参照してください。
 
 ## バージョン 4.0.6 {#v4-0-6}
 
