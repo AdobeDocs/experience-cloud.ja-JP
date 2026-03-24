@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Adobe Experience Rolloutsを使用して、アプリケーション全体で機能フラグ、制御ロールアウト、ターゲットリリースを管理する方法について説明します。
-source-git-commit: cd1d882942705f51440ae99f4ce6daf467d3283c
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 6%
+source-wordcount: '340'
+ht-degree: 5%
 
 ---
 
@@ -77,10 +77,6 @@ ht-degree: 6%
       + [環境をアプリケーションに関連付ける](guides/cross-environment/associate-environments.md)
       + [環境をまたいで機能フラグを表示](guides/cross-environment/view-feature-flags-across-environments.md)
       + [機能フラグの読み込み](guides/cross-environment/import-feature-flags.md)
-   + ロールアウトの自動化 {#automated-rollouts}
-      + [ロールアウトの自動化の作成](guides/automated-rollouts/create-automated-rollout.md)
-      + [自動ロールアウトのコンセプト](guides/automated-rollouts/automated-rollout-concept.md)
-      + [ロールアウトプランの監視と編集](guides/automated-rollouts/monitor-edit-rollout-plan.md)
    + サポート {#support}
       + [トラブルシューティング](guides/support/troubleshooting.md)
       + [サポートを受ける](guides/support/get-support.md)
@@ -93,14 +89,14 @@ ht-degree: 6%
          + [Node.js SDK統合ガイド](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Node.js SDK リリースノート](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [SDK ベンチマーク](guides/sdk-releases/java-sdk-benchmarking.md)
-<!--+ Feature API {#feature-api}
-  + [GET Feature API V3](feature-api/get-feature-api-v3.md)
-  + [GET Feature API V2](feature-api/get-feature-api-v2.md)
-+ Management API {#management-api}
-  + [Feature management APIs overview](management-api/feature-management-apis-overview.md)
-  + [Feature flags management API](management-api/feature-flags-management-api.md)
-  + [Feature group management API](management-api/feature-group-management-api.md)
-  + [Release management APIs](management-api/release-management-apis.md)
-  + [Get client ID for an application](management-api/get-client-id.md)
-  + [Get desired audience criteria](management-api/get-audience-criteria.md)
-  + [Management patch API](management-api/management-patch-api.md)-->
++ 機能API {#feature-api}
+   + [GET Feature API V3](feature-api/get-feature-api-v3.md)
+   + [GET Feature API V2](feature-api/get-feature-api-v2.md)
++ 管理API {#management-api}
+   + [機能管理APIの概要](management-api/feature-management-apis-overview.md)
+   + [機能フラグ管理API](management-api/feature-flags-management-api.md)
+   + [機能グループ管理API](management-api/feature-group-management-api.md)
+   + [リリース管理API](management-api/release-management-apis.md)
+   + [アプリケーションのクライアント IDを取得](management-api/get-client-id.md)
+   + [必要なオーディエンス条件を取得](management-api/get-audience-criteria.md)
+   + [管理パッチ API](management-api/management-patch-api.md)

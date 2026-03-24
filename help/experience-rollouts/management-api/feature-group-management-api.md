@@ -1,9 +1,9 @@
 ---
 title: 機能グループ管理API
 description: エクスペリエンスロールアウト機能グループ管理APIのAPI リファレンス。機能グループのロールアウトプランの取得、作成、更新、削除、制御を行うエンドポイントが含まれます。
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '575'
 ht-degree: 16%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 16%
 
 ### リクエスト本文 {#create-request-body}
 
-リクエスト本文は[機能グループオブジェクト &#x200B;](#feature-group-object)を使用します。 `params`内の`rolloutType`は必須であり、ペイロードの構造を決定します。
+リクエスト本文は[機能グループオブジェクト ](#feature-group-object)を使用します。 `params`内の`rolloutType`は必須であり、ペイロードの構造を決定します。
 
 **サンプル – 手動ロールアウト：**
 
@@ -90,34 +90,12 @@ ht-degree: 16%
 }
 ```
 
-**サンプル – 自動ロールアウト：**
-
-```json
-{
-  "params": { "rolloutType": "automated", "label": "my-automated-group", "tags": [] },
-  "status": "SAVED",
-  "type": "group",
-  "name": "my.automated.group",
-  "variations": [{ "variantPercentage": 100, "variantName": "Variant 1", "features": [] }],
-  "phaseRollOutPlan": {
-    "phaseRollOutBlocks": [
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 1, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": false, "phaseRule": null, "waitRule": { "waitDuration": { "val": "2", "unit": "HOURS" } }, "blockId": 2, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 3, "blockName": "", "isBlockActivated": false }
-    ],
-    "rollOutPlanState": "DRAFT"
-  },
-  "clients": [],
-  "org": { "id": 95 }
-}
-```
-
 ### 応答 {#create-response}
 
 | ステータス | 説明 |
 |---|---|
 | `200` | 成功です。 応答本文は、作成された機能グループオブジェクトです。 |
-| `400` | ペイロードが無効です。詳しくは、[&#x200B; エラーメッセージ &#x200B;](#error-messages)を参照してください。 |
+| `400` | ペイロードが無効です。詳しくは、[ エラーメッセージ ](#error-messages)を参照してください。 |
 | `403` | 不十分な権限： |
 
 ## 機能グループを更新 {#update-group}
@@ -136,29 +114,6 @@ ht-degree: 16%
 | `200` | 成功です。 応答本文は、更新された機能グループオブジェクトです。 |
 | `400` | 無効なペイロードです。 |
 | `403` | 不十分な権限： |
-
-## ロールアウトプランの一時停止、再開、または中止 {#pause-resume-abort}
-
-進行中の自動テストまたはA/B テストのロールアウト計画の実行を制御します。
-
-| アクション | エンドポイント |
-|---|---|
-| **再開** | `POST /m/api/v1/mgmt/phaserollout/resume` |
-| **一時停止** | `POST /m/api/v1/mgmt/phaserollout/pause` |
-| **中止** | `POST /m/api/v1/mgmt/phaserollout/abort` |
-
-### リクエスト本文 {#control-request-body}
-
-```json
-{
-  "entityId": 10282,
-  "fgEntityType": "GROUP"
-}
-```
-
-### 応答 {#control-response}
-
-成功すると`true`を返します。
 
 ## 機能グループの削除 {#delete-group}
 
@@ -188,8 +143,8 @@ ht-degree: 16%
 | `org` | オブジェクト | 組織の詳細： `id`を含める必要があります。 | ○ |
 | `params` | オブジェクト | グループパラメーター：`rolloutType` は必須です（`"manual"`、`"automated"`または`"ab-testing"`）。 `label`と`tags`もサポートしています。 | ○ |
 | `audience` | 配列 | 手動ロールアウトタイプのオーディエンスルール。 | × |
-| `variations` | 配列 | バリエーションのリスト： [FeatureGroupVariation オブジェクト &#x200B;](#featuregroupvariation-object)を参照してください。 | × |
-| `phaseRollOutPlan` | オブジェクト | フェーズの導入計画： 自動化されたA/B テストの種類に必要です。 [PhaseRollOutPlan オブジェクト &#x200B;](#phaserolloutplan-object)を参照してください。 | 条件 |
+| `variations` | 配列 | バリエーションのリスト： [FeatureGroupVariation オブジェクト ](#featuregroupvariation-object)を参照してください。 | × |
+| `phaseRollOutPlan` | オブジェクト | フェーズの導入計画： 自動化されたA/B テストの種類に必要です。 [PhaseRollOutPlan オブジェクト ](#phaserolloutplan-object)を参照してください。 | 条件 |
 | `description` | 文字列 | オプションの表示説明。 最大225文字。 | × |
 
 ### FeatureGroupVariation オブジェクト {#featuregroupvariation-object}
@@ -230,4 +185,3 @@ ht-degree: 16%
 * [機能管理APIの概要](feature-management-apis-overview.md)
 * [機能フラグ管理API](feature-flags-management-api.md)
 * [管理パッチ API](management-patch-api.md)
-* [ロールアウトの自動化の作成](../guides/automated-rollouts/create-automated-rollout.md)
