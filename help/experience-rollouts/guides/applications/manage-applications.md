@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## アプリケーションの追加 {#add-application}
 
-アプリケーションをチームに追加する手順については、[ アプリケーションのオンボーディング ](onboard-your-application.md)を参照してください。
+アプリケーションをチームに追加する手順については、[&#x200B; アプリケーションのオンボーディング &#x200B;](onboard-your-application.md)を参照してください。
 
 ## チームの所有権 {#team-ownership}
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 この所有権モデルは、次の機能グループの構成方法にも影響します。
 
-* **チーム内** – 製品リリースの所有者は、同じチームが所有するアプリケーション間で機能フラグをグループ化できます。 複数の機能を制御するには、[機能グループ ](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
+* **チーム内** – 製品リリースの所有者は、同じチームが所有するアプリケーション間で機能フラグをグループ化できます。 複数の機能を制御するには、[機能グループ &#x200B;](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
 
 ## 関連トピック {#see-also}
 
