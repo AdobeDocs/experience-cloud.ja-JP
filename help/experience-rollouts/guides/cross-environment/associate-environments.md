@@ -1,17 +1,17 @@
 ---
 title: 環境をアプリケーションに関連付ける
 description: Adobe Experience Rolloutsの環境全体でアプリケーションインスタンスをリンクして、開発から実稼動まで一貫して機能フラグを管理する方法を説明します。
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+exl-id: 53080db1-f257-4369-82ab-57c84395a40a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
 
-
 # 環境をアプリケーションに関連付ける {#associate-environments}
 
-環境間でアプリケーションインスタンスをリンクすることで、環境間の可視化とワークフローのインポートが可能になります。 これを設定するには、**管理者**&#x200B;の役割が必要です。 役割を確認する必要がある場合は、[&#x200B; ユーザーの役割](../teams/user-roles.md)を参照してください。
+環境間でアプリケーションインスタンスをリンクすることで、環境間の可視化とワークフローのインポートが可能になります。 これを設定するには、**管理者**&#x200B;の役割が必要です。 役割を確認または更新する必要がある場合は、チーム管理者にお問い合わせください。
 
 これが便利な理由の背景については、[環境をまたいだ概念](cross-environment-concept.md)を参照してください。
 

@@ -1,17 +1,17 @@
 ---
 title: アプリケーションのオンボーディング
 description: 新しいアプリケーションをAdobe Experience Rolloutsにオンボーディングして、機能フラグの作成と管理を開始できるようにする方法について説明します。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
 
-
 # アプリケーションのオンボーディング {#onboard-your-application}
 
-新しいアプリケーションを追加するには、**管理者**&#x200B;の役割が必要です。 役割を確認するか、チーム管理者に依頼する必要がある場合は、[&#x200B; ユーザーの役割](../teams/user-roles.md)を参照してください。
+新しいアプリケーションを追加するには、**管理者**&#x200B;の役割が必要です。 役割を確認または更新する必要がある場合は、チーム管理者にお問い合わせください。
 
 ## 新しいアプリケーションを追加 {#add-application}
 
@@ -45,5 +45,4 @@ ht-degree: 1%
 ## 関連トピック {#see-also}
 
 * [アプリケーションの管理](manage-applications.md)
-* [ユーザーロール](../teams/user-roles.md)
 * [コンソールにログインします](../console/log-in-to-the-console.md)

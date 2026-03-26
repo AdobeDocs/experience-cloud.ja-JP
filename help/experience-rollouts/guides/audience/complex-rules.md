@@ -1,13 +1,13 @@
 ---
 title: 複雑なオーディエンスルール
 description: 一括値の制限や、複数の条件にルールを分割する方法など、Adobe Experience Rolloutsで大規模または複雑なオーディエンスルールセットを操作する方法を説明します。
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
-
 
 # 複雑なオーディエンスルール {#complex-rules}
 
@@ -30,10 +30,9 @@ ht-degree: 0%
    * `(1 and 2) or 3`
    * `(1 and 2) or (3 and 4)`
 
-これは、他の基準と組み合わせてパーセンテージ ルールに使用されるものと同じメカニズムです。 作業済みの例については、[&#x200B; オーディエンス条件にパーセンテージ ルールを追加](adding-percentage-rules.md)を参照してください。
+これは、他の基準と組み合わせてパーセンテージ ルールに使用されるものと同じメカニズムです。 作業済みの例については、[ オーディエンス条件にパーセンテージ ルールを追加](adding-percentage-rules.md)を参照してください。
 
 ## 関連トピック {#see-also}
 
 * [機能フラグと機能グループのオーディエンス](audience-in-feature-flags-and-feature-groups.md)
 * [オーディエンス条件に割合ルールを追加](adding-percentage-rules.md)
-* [リリースオーディエンスルールの更新](../feature-flags/update-release-audience-rules.md)

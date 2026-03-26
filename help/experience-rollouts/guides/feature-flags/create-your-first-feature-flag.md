@@ -1,13 +1,13 @@
 ---
 title: 最初の機能フラグを作成
 description: Adobe エクスペリエンスロールアウトで機能フラグを作成し、オーディエンスを設定して、ユーザーにロールアウトする前にテストする方法について説明します。
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: ae115120-8da9-465e-a556-c17591ea7054
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
-
 
 # 最初の機能フラグを作成 {#create-feature-flag}
 
@@ -15,10 +15,9 @@ ht-degree: 0%
 
 機能フラグを作成する前に、次の手順を実行します。
 
-* Experience Rollouts コンソールにアクセスできます。[&#x200B; コンソールへのログイン &#x200B;](../console/log-in-to-the-console.md)を参照してください。
-* チームに属しています – [&#x200B; チームの管理](../teams/manage-teams.md)を参照してください
-* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
-* **開発者**&#x200B;または&#x200B;**製品リリース所有者**&#x200B;の役割があります。[&#x200B; ユーザーの役割](../teams/user-roles.md)を参照してください。
+* Experience Rollouts コンソールにアクセスできます。[ コンソールへのログイン ](../console/log-in-to-the-console.md)を参照してください。
+* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
+* **開発者**&#x200B;または&#x200B;**製品リリース所有者**&#x200B;の役割があります
 
 ## 手順1：機能フラグの作成 {#create}
 
@@ -51,7 +50,7 @@ ht-degree: 0%
 
 ## ステップ 4：スケジュール（オプション） {#schedule}
 
-機能フラグをスケジュールして、将来の日時にアクティブ化することができます。 詳しくは、[&#x200B; スケジュール &#x200B;](schedule.md)を参照してください。
+機能フラグをスケジュールして、将来の日時にアクティブ化することができます。 詳しくは、[ スケジュール ](schedule.md)を参照してください。
 
 ## FAQ：機能フラグを開発者として追加できない {#faq}
 
@@ -61,4 +60,3 @@ ht-degree: 0%
 
 * [徐々にロールアウトする機能を設定する](set-feature-gradual-rollout.md)
 * [機能グループの作成](create-a-feature-group.md)
-* [ユーザーロール](../teams/user-roles.md)

@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Adobe Experience Rolloutsを使用して、アプリケーション全体で機能フラグ、制御ロールアウト、ターゲットリリースを管理する方法について説明します。
-source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
+source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '291'
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,8 @@ ht-degree: 5%
 + ガイド {#guides}
    + コンソールの概要 {#console}
       + [Experience Rollouts コンソールにログインします](guides/console/log-in-to-the-console.md)
-      + [環境の概要](guides/console/environments-overview.md)
+      + [サンドボックスの選択](guides/console/environments-overview.md)
       + [利用申請](guides/console/request-access.md)
-      + [チームとその管理者](guides/console/teams-and-admins.md)
-      + [新しいチームを作成](guides/console/create-a-new-team.md)
-   + チーム {#teams}
-      + [チームの管理](guides/teams/manage-teams.md)
-      + [ユーザーロール](guides/teams/user-roles.md)
-      + [チームにメンバーを追加](guides/teams/add-team-members.md)
-      + [チーム管理に関するFAQ](guides/teams/team-management-faq.md)
    + アプリケーション {#applications}
       + [アプリケーションの管理](guides/applications/manage-applications.md)
       + [アプリケーションのオンボーディング](guides/applications/onboard-your-application.md)
@@ -49,19 +42,13 @@ ht-degree: 5%
       + [SDK](guides/integrate/sdks.md)
       + [統合ステップ](guides/integrate/integration-steps.md)
       + [Adobe Developer ConsoleでAPI アプリケーションを購読する](guides/integrate/subscribe-to-api-application.md)
-   + 機能フラグとリリース {#feature-flags-releases}
-      + [機能、機能グループ、リリース](guides/feature-flags/features-feature-groups-releases.md)
+   + 機能フラグ {#feature-flags}
+      + [機能と機能グループ](guides/feature-flags/features-feature-groups-releases.md)
       + [最初の機能フラグを作成](guides/feature-flags/create-your-first-feature-flag.md)
       + [徐々にロールアウトする機能を設定する](guides/feature-flags/set-feature-gradual-rollout.md)
       + [機能グループの作成](guides/feature-flags/create-a-feature-group.md)
       + [機能グループを設定し](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [機能フラグによるA/B テスト](guides/feature-flags/a-b-testing.md)
-      + [リリースとチーム間の機能グループ](guides/feature-flags/releases-and-cross-team-feature-groups.md)
-      + [エンドツーエンドのリリースワークフロー](guides/feature-flags/release-workflow-end-to-end.md)
-      + [リリースをリクエスト](guides/feature-flags/request-a-release.md)
-      + [リリースオーディエンスルールの更新](guides/feature-flags/update-release-audience-rules.md)
-      + [リリース状態](guides/feature-flags/release-states.md)
-      + [チーム間の機能グループの作成](guides/feature-flags/create-cross-team-feature-group.md)
       + [リリース管理に関するFAQ](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
       + [スケジュール](guides/feature-flags/schedule.md)

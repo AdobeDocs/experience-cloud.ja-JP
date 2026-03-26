@@ -1,13 +1,13 @@
 ---
 title: 機能グループの作成
 description: Adobe Experience Rolloutsで機能グループを作成し、チーム内のアプリケーション間で複数の機能フラグを1つのユニットとして管理する方法について説明します。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
-
 
 # 機能グループの作成 {#create-feature-group}
 
@@ -15,13 +15,12 @@ ht-degree: 0%
 
 機能グループを作成する前に、次の手順を実行します。
 
-* Experience Rollouts コンソールにアクセスできます。[&#x200B; コンソールへのログイン &#x200B;](../console/log-in-to-the-console.md)を参照してください。
-* チームに属しています – [&#x200B; チームの管理](../teams/manage-teams.md)を参照してください
-* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
-* **開発者**&#x200B;または&#x200B;**製品リリース所有者**&#x200B;の役割があります。[&#x200B; ユーザーの役割](../teams/user-roles.md)を参照してください。
+* Experience Rollouts コンソールにアクセスできます。[ コンソールへのログイン ](../console/log-in-to-the-console.md)を参照してください。
+* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
+* **開発者**&#x200B;または&#x200B;**製品リリース所有者**&#x200B;の役割があります
 * グループに追加する機能フラグを作成しました。[最初の機能フラグの作成](create-your-first-feature-flag.md)を参照してください。
 
-機能グループの概要については、[複数の機能を制御する機能グループ &#x200B;](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
+機能グループの概要については、[複数の機能を制御する機能グループ ](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
 
 ## 手順1：機能グループの作成 {#create}
 
@@ -36,7 +35,7 @@ ht-degree: 0%
 
 1. タイトル、キー、説明、およびオプションでタグを指定します。
 2. 機能グループの&#x200B;**パーセンテージのロールアウト**&#x200B;を設定します。
-3. A/B テストを実施したい場合は、複数のバリエーションを選択してください。 それ以外は、1つのバリエーションのままにします。 詳しくは、[機能フラグを使用したA/B テスト &#x200B;](a-b-testing.md)を参照してください。
+3. A/B テストを実施したい場合は、複数のバリエーションを選択してください。 それ以外は、1つのバリエーションのままにします。 詳しくは、[機能フラグを使用したA/B テスト ](a-b-testing.md)を参照してください。
 
 ## ステップ 3：オーディエンス {#audience}
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 ## ステップ 5：スケジュール（オプション） {#schedule}
 
-機能グループをスケジュールして、今後の日時にアクティブ化することができます。 詳しくは、[&#x200B; スケジュール &#x200B;](schedule.md)を参照してください。
+機能グループをスケジュールして、今後の日時にアクティブ化することができます。 詳しくは、[ スケジュール ](schedule.md)を参照してください。
 
 ## 関連トピック {#see-also}
 

@@ -1,13 +1,13 @@
 ---
 title: アプリケーションの管理
 description: 新しいアプリケーションの追加やチームのオーナーシップの理解など、Adobe Experience Rolloutsでのアプリケーションの管理方法について説明します。
-source-git-commit: 53edbee220e7ef17c4a3ea066743192c1e9681f4
+exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
+source-git-commit: 8dc03f77f4e13ac9196df0910b1c00904b57a934
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
-
 
 # アプリケーションの管理 {#manage-applications}
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## アプリケーションの追加 {#add-application}
 
-アプリケーションをチームに追加する手順については、[&#x200B; アプリケーションのオンボーディング &#x200B;](onboard-your-application.md)を参照してください。
+アプリケーションをチームに追加する手順については、[ アプリケーションのオンボーディング ](onboard-your-application.md)を参照してください。
 
 ## チームの所有権 {#team-ownership}
 
@@ -27,11 +27,9 @@ ht-degree: 1%
 
 この所有権モデルは、次の機能グループの構成方法にも影響します。
 
-* **チーム内** – 製品リリースの所有者は、同じチームが所有するアプリケーション間で機能フラグをグループ化できます。 複数の機能を制御するには、[機能グループ &#x200B;](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
-* **チーム間** – 別のチームが所有するアプリケーションから機能フラグをグループ化する必要がある場合は、チーム間の機能グループを使用します。これには、**機能の管理者**&#x200B;の役割が必要です。
+* **チーム内** – 製品リリースの所有者は、同じチームが所有するアプリケーション間で機能フラグをグループ化できます。 複数の機能を制御するには、[機能グループ ](../../concepts/feature-groups-to-control-multiple-features.md)を参照してください。
 
 ## 関連トピック {#see-also}
 
 * [アプリケーションのオンボーディング](onboard-your-application.md)
 * [複数の機能を制御する機能グループ](../../concepts/feature-groups-to-control-multiple-features.md)
-* [ユーザーロール](../teams/user-roles.md)
