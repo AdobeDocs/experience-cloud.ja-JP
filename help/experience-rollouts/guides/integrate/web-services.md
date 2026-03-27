@@ -1,13 +1,13 @@
 ---
 title: Web サービス
 description: JavaまたはNode.js SDKを使用して、Adobe Experience Rolloutsをバックエンド web サービスに統合する方法について説明します。
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
-
 
 # Web サービス {#web-services}
 
@@ -17,16 +17,12 @@ ht-degree: 9%
 
 | 言語 | 統合ガイド | リリースノート |
 |---|---|---|
-| **Java** | [Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) | [Java SDK リリースノート &#x200B;](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Node.js** | [Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Node.js SDK リリースノート &#x200B;](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+| **Java** | [Java SDK統合ガイド ](../sdk-releases/java/java-sdk-integration-guide.md) | [Java SDK リリースノート ](../sdk-releases/java/java-sdk-release-notes.md) |
+| **Node.js** | [Node.js SDK統合ガイド ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Node.js SDK リリースノート ](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
 
 ## その他の言語 {#other-languages}
 
-バックエンドサービスで上記に記載されていない言語を使用している場合は、REST APIと直接統合できます。
-
-* 機能API V3 – 完全なリファレンスについては、このガイドの機能API セクションを参照してください
-
-サポートされていないスタックとの統合に関するガイダンスが必要な場合は、Experience Rollouts サポートにお問い合わせください。
+バックエンドサービスで上記に記載されていない言語を使用している場合は、Experience Rollouts サポートに連絡して、特定のスタックとの統合に関するガイダンスを受けてください。
 
 ## 関連トピック {#see-also}
 

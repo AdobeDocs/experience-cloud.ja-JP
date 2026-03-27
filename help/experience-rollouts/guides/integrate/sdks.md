@@ -1,13 +1,13 @@
 ---
 title: SDK
 description: Adobe Experience RolloutsのSDK アーキテクチャと、JavaおよびNode.jsで使用可能なSDKについて説明します。
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
-
 
 # SDK {#sdks}
 
@@ -41,22 +41,13 @@ Java SDKの主な仕様：
 * **サポートされているJDK:** JDK 8以降
 * **キャッシュできないクライアント：** SDK バージョン 0.8以降でサポートされています。 キャッシュできないクライアントの場合、`getFeature()`はキャッシュから読み取る代わりにライブ API呼び出しを行います。 SDKはバックグラウンドでポーリングを続け、クライアントがキャッシュ可能になった場合にキャッシュベースのサービスに切り替えます。
 
-設定手順については、[Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md)を参照してください。
+設定手順については、[Java SDK統合ガイド ](../sdk-releases/java/java-sdk-integration-guide.md)を参照してください。
 
 ### Node.js SDK {#nodejs-sdk}
 
 Node.js SDKは、npmを介して配布されます。
 
-設定手順については、[Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)を参照してください。
-
-## SDKとREST APIの選択 {#sdk-vs-api}
-
-| シナリオ | レコメンデーション |
-|---|---|
-| バックエンド JavaまたはNode.js サービス | 自動キャッシュと簡素化された統合に適切なSDKを使用する |
-| その他のバックエンド言語 | Feature API V3を直接使用する – このガイドのFeature API セクションを参照してください |
-| webまたはモバイルアプリケーション | Feature API V3を直接使用する – このガイドのFeature API セクションを参照してください |
-| デスクトップアプリケーション | Feature API V2を直接使用する – このガイドのFeature API セクションを参照してください |
+設定手順については、[Node.js SDK統合ガイド ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)を参照してください。
 
 ## 関連トピック {#see-also}
 

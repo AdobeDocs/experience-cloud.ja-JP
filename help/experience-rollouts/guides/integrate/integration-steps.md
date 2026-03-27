@@ -1,13 +1,13 @@
 ---
 title: 統合ステップ
-description: アプリケーションタイプの統合手順に従って、Adobe Experience Rolloutsをweb サービス、web アプリ、モバイルアプリ、デスクトップアプリケーションに接続します。
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: 使用可能なSDKを使用して、アプリケーションタイプの統合手順に従って、Adobe Experience Rolloutsをweb サービス、web アプリ、モバイルアプリ、またはデスクトップアプリケーションに接続します。
+exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
-
 
 # 統合ステップ {#integration-steps}
 
@@ -19,31 +19,31 @@ ht-degree: 3%
 
 **Java**
 
-セットアップ、依存関係の設定、および初期化については、[Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md)に従ってください。
+セットアップ、依存関係の設定、および初期化については、[Java SDK統合ガイド ](../sdk-releases/java/java-sdk-integration-guide.md)に従ってください。
 
 **Node.js**
 
-セットアップと初期化については、[Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)に従ってください。
+セットアップと初期化については、[Node.js SDK統合ガイド ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)に従ってください。
 
 **その他の言語**
 
-お使いのスタックが上記にリストされていない場合は、**Feature API V3**&#x200B;と直接統合してください（このガイドのFeature API セクションを参照）。 ガイダンスが必要な場合は、Experience Rollouts サポートにお問い合わせください。
+特定のスタックに関するガイダンスについては、Experience Rollouts サポートにお問い合わせください。
 
 ## webおよびモバイルアプリケーション {#web-mobile}
 
-Webおよびモバイルアプリケーションは&#x200B;**Feature API V3**&#x200B;を呼び出して、現在のユーザーの機能フラグを取得し、アプリケーションに条件付きロジックを適用します。
+web アプリケーションとモバイルアプリケーションは、それぞれweb SDKとモバイルSDKを介して統合されます。
 
-完全なAPI リファレンスについては、このガイドの機能API セクションの&#x200B;**GET機能API V3**&#x200B;を参照してください。
+>[!NOTE]
+>
+>Web SDKおよびモバイル SDKのドキュメントは現在準備中であり、近日中に公開される予定です。 早期アクセスガイダンスについては、Adobe担当者にお問い合わせください。
 
 ## デスクトップアプリケーション {#desktop}
 
-デスクトップアプリケーションは、**機能API V2**&#x200B;を呼び出して、機能フラグを取得します。
+デスクトップアプリケーションは、SDKを介して統合されます。 デスクトップスタック固有の統合ガイダンスについては、Adobeの担当者にお問い合わせください。
 
-完全なAPI リファレンスについては、このガイドの機能API セクションの&#x200B;**GET機能API V2**&#x200B;を参照してください。
-
->[!IMPORTANT]
+>[!NOTE]
 >
->デスクトップクライアントは、API応答のTTL値を尊重し、APIが使用できないときに適切なエラー処理を実装する必要があります。 要件については、[&#x200B; デスクトップアプリケーション &#x200B;](desktop-applications.md)を参照してください。
+>Desktop SDKのドキュメントは現在準備中であり、近日中に公開される予定です。
 
 ## 関連トピック {#see-also}
 

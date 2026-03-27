@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Adobe Experience Rolloutsを使用して、アプリケーション全体で機能フラグ、制御ロールアウト、ターゲットリリースを管理する方法について説明します。
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,6 @@ ht-degree: 6%
       + [Web サービス](guides/integrate/web-services.md)
       + [SDK](guides/integrate/sdks.md)
       + [統合ステップ](guides/integrate/integration-steps.md)
-      + [Adobe Developer ConsoleでAPI アプリケーションを購読する](guides/integrate/subscribe-to-api-application.md)
    + 機能フラグ {#feature-flags}
       + [機能と機能グループ](guides/feature-flags/features-feature-groups-releases.md)
       + [最初の機能フラグを作成](guides/feature-flags/create-your-first-feature-flag.md)
@@ -76,14 +75,3 @@ ht-degree: 6%
          + [Node.js SDK統合ガイド](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Node.js SDK リリースノート](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [SDK ベンチマーク](guides/sdk-releases/java-sdk-benchmarking.md)
-+ 機能API {#feature-api}
-   + [GET Feature API V3](feature-api/get-feature-api-v3.md)
-   + [GET Feature API V2](feature-api/get-feature-api-v2.md)
-+ 管理API {#management-api}
-   + [機能管理APIの概要](management-api/feature-management-apis-overview.md)
-   + [機能フラグ管理API](management-api/feature-flags-management-api.md)
-   + [機能グループ管理API](management-api/feature-group-management-api.md)
-   + [リリース管理API](management-api/release-management-apis.md)
-   + [アプリケーションのクライアント IDを取得](management-api/get-client-id.md)
-   + [必要なオーディエンス条件を取得](management-api/get-audience-criteria.md)
-   + [管理パッチ API](management-api/management-patch-api.md)

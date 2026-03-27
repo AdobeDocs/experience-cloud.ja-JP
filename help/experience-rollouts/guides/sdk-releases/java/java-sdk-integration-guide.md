@@ -1,13 +1,13 @@
 ---
 title: Java SDK統合ガイド
 description: エクスペリエンスロールアウト Java SDKをバックエンドサービスに統合して、機能フラグを取得および評価する方法について説明します。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7c12bd6c-1883-4f1c-985f-a2b0432e61ce
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
-
 
 # Java SDK統合ガイド {#java-sdk-integration-guide}
 
@@ -19,8 +19,8 @@ Java SDKを統合する前に、次のことを確認してください。
 
 * JDK 11以降（SDK バージョン 3.0.0以降で必要。以前のバージョンはJDK 8以降をサポート）
 * Maven ベースのビルドシステム
-* Adobe Developer Console プロジェクトの&#x200B;**API キー**&#x200B;および&#x200B;**サービストークン**&#x200B;のクライアント ID — [API アプリケーションのサブスクリプション &#x200B;](../../integrate/subscribe-to-api-application.md)を参照
-* Experience Rollouts コンソールに登録されている&#x200B;**アプリケーションクライアント ID**&#x200B;は、[&#x200B; アプリケーションのオンボーディング &#x200B;](../../applications/onboard-your-application.md)を参照してください。
+* Adobe Developer Console プロジェクトの&#x200B;**API キー**&#x200B;および&#x200B;**サービストークン**&#x200B;のクライアント ID — Experience Rollouts サポートに連絡して、クライアント IDを許可リストに加えるしてください
+* Experience Rollouts コンソールに登録されている&#x200B;**アプリケーションクライアント ID**&#x200B;は、[ アプリケーションのオンボーディング ](../../applications/onboard-your-application.md)を参照してください。
 
 ## Maven依存関係の追加 {#maven-dependency}
 
@@ -188,5 +188,4 @@ try {
 
 * [Java SDK リリースノート](java-sdk-release-notes.md)
 * [SDK](../../integrate/sdks.md)
-* [API アプリケーションの購読](../../integrate/subscribe-to-api-application.md)
 * [統合ステップ](../../integrate/integration-steps.md)
