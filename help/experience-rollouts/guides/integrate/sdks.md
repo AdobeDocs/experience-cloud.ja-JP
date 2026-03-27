@@ -41,13 +41,13 @@ Java SDKの主な仕様：
 * **サポートされているJDK:** JDK 8以降
 * **キャッシュできないクライアント：** SDK バージョン 0.8以降でサポートされています。 キャッシュできないクライアントの場合、`getFeature()`はキャッシュから読み取る代わりにライブ API呼び出しを行います。 SDKはバックグラウンドでポーリングを続け、クライアントがキャッシュ可能になった場合にキャッシュベースのサービスに切り替えます。
 
-設定手順については、[Java SDK統合ガイド ](../sdk-releases/java/java-sdk-integration-guide.md)を参照してください。
+設定手順については、[Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md)を参照してください。
 
 ### Node.js SDK {#nodejs-sdk}
 
 Node.js SDKは、npmを介して配布されます。
 
-設定手順については、[Node.js SDK統合ガイド ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)を参照してください。
+設定手順については、[Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)を参照してください。
 
 ## 関連トピック {#see-also}
 

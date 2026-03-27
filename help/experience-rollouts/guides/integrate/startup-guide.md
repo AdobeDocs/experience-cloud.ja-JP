@@ -15,11 +15,11 @@ ht-degree: 1%
 
 ## 手順1：アクセスのリクエスト {#step-1-access}
 
-Experience Rollouts コンソールへのアクセスをリクエストし、チームに参加します。 詳細な手順については、[ アクセスを要求](../console/request-access.md)を参照してください。
+Experience Rollouts コンソールへのアクセスをリクエストし、チームに参加します。 詳細な手順については、[&#x200B; アクセスを要求](../console/request-access.md)を参照してください。
 
 ## 手順2：アプリケーションのオンボーディング {#step-2-onboard}
 
-アクセスを取得したら、Experience Rollouts コンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
+アクセスを取得したら、Experience Rollouts コンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
 
 オンボーディングの前に、次の手順に従います。
 

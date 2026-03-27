@@ -19,11 +19,11 @@ ht-degree: 4%
 
 **Java**
 
-セットアップ、依存関係の設定、および初期化については、[Java SDK統合ガイド ](../sdk-releases/java/java-sdk-integration-guide.md)に従ってください。
+セットアップ、依存関係の設定、および初期化については、[Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md)に従ってください。
 
 **Node.js**
 
-セットアップと初期化については、[Node.js SDK統合ガイド ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)に従ってください。
+セットアップと初期化については、[Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md)に従ってください。
 
 **その他の言語**
 

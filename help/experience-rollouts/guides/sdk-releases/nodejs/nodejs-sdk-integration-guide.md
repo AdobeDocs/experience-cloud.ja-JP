@@ -23,7 +23,7 @@ Node.js SDKを統合する前に、次のことを確認してください。
 
 * Node.js サーバーサイドアプリケーション
 * Adobe Developer Consoleを通じて取得した&#x200B;**API キー**&#x200B;および&#x200B;**サービストークン** — Experience Rollouts サポートに連絡して、クライアント IDを許可リストに加えるしてください
-* Experience Rollouts コンソールに登録されている&#x200B;**アプリケーションクライアント ID**&#x200B;は、[ アプリケーションのオンボーディング ](../../applications/onboard-your-application.md)を参照してください。
+* Experience Rollouts コンソールに登録されている&#x200B;**アプリケーションクライアント ID**&#x200B;は、[&#x200B; アプリケーションのオンボーディング &#x200B;](../../applications/onboard-your-application.md)を参照してください。
 
 ## SDK のインストール {#install}
 
