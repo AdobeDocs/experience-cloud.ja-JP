@@ -1,28 +1,28 @@
 ---
-title: API のトラブルシューティング
-description: Campaign Standard API に関するよくある問題について詳しく説明します
+title: API トラブルシューティング
+description: Campaign Standard APIに関する一般的な問題について詳しく見る
 role: Developer
 level: Experienced
-badge: label="限定提供（LA）" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standardに移行されたユーザーに制限"
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+badge: label="限定提供" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# API のトラブルシューティング {#troubleshooting}
+# API トラブルシューティング {#troubleshooting}
 
-* **Adobe.io コンソールに移動すると、次のエラーが表示されます。「Adobe I/O コンソールは、エンタープライズアカウントの一部のメンバーのみが使用できます。 アクセス権が必要と思われる場合は、システム管理者にお問い合わせください。」**
+* **Adobe.io コンソールにアクセスすると、次のエラーが表示されます。「Adobe I/O コンソールは、一部のエンタープライズアカウントでのみ使用できます。 アクセス権を持っている必要があると思われる場合は、システム管理者にお問い合わせください。&quot;**
 
-API キーを作成できるのは、管理者である組織用のみです。 このメッセージが表示された場合、API キーを作成して組織の管理者の 1 人に依頼するとします。
+API キーを作成できるのは、管理対象の組織のみです。 このメッセージが表示され、API キーを作成し、組織の管理者の1人に依頼する場合。
 
-* **Adobe.io にリクエストを行うと、{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;} が発生する**
+* **Adobe.ioにリクエストを行うと、{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**&#x200B;が表示されます
 
-つまり、特定の Campaign 製品の IMS プロビジョニングに問題があります。IMS チームがそれを修正する必要があります。
+つまり、特定のCampaign製品のIMS プロビジョニングに問題が発生しています。IMS チームはそれを修正する必要があります。
 
-詳細を確認するには、トークンを使用して IMS API を呼び出し、IMS プロファイルがどのように表示されるかを確認します。リクエストをルーティングするには、Adobe.io の URL に入力したものと同じ organization_id を持つ prodCtx が必要です。
-ない場合、IMS プロビジョニングを修正する必要があります。
+詳細を確認するには、トークンを使用してIMS APIを呼び出し、IMS プロファイルがどのように表示されるかを確認します。リクエストをルーティングするには、organization_idがAdobe.ioのURLに入力したものと同じprodCtxが必要です。
+IMS プロビジョニングが見つからない場合は、修正する必要があります。
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
@@ -32,13 +32,13 @@ API キーを作成できるのは、管理者である組織用のみです。 
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-このメソッドは次のエラーを返します。
+次のエラーが返されます。
 
 ```
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
-このリクエストの IMS プロファイルを確認します。
+このリクエストでIMS プロファイルを確認します。
 
 ```
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
@@ -48,7 +48,7 @@ API キーを作成できるのは、管理者である組織用のみです。 
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-応答の ORGANIZATION_ID 値は、最初のGET リクエストで同じである必要があります。
+応答では、最初のGET リクエストでORGANIZATION_IDの値が同じである必要があります。
 
 ```
 {
@@ -73,19 +73,20 @@ API キーを作成できるのは、管理者である組織用のみです。 
 }
 ```
 
-* **Adobe.io にリクエストを行うと、&lbrace;&quot;code&quot;:500、&quot;message&quot;:&quot;Oops というメッセージが表示されます。 エラーが発生しました。 URI を確認して、もう一度やり直してください。」**
+* **Adobe.ioにリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops&quot;が表示されます。 エラーが発生しました。 URIを確認して、もう一度試してください。&quot;}**
 
-Adobe.io が無効な URI を宣言しています：要求している URI が無効である可能性があります。 Adobe.io で Campaign サービスを選択すると、使用可能な organization_ids のリストを含むピッカーが表示されます。 選択したものが URL に入力したものであることを確認する必要があります。
+Adobe.ioが無効なURIを宣言します。リクエストしているURIが無効である可能性があります。 Adobe.ioでCampaign サービスを選択すると、使用可能なorganization_idのリストを含むピッカーが表示されます。 選択したものがURLに入れたものであることを確認する必要があります。
 
-* **Adobe.io にリクエストを行うと、{&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;} が表示される**
+* **Adobe.ioにリクエストを行うと、{&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth トークンが無効です&quot;}**&#x200B;が表示されます
 
-トークンが無効であるか（トークンの生成に使用された IMS 呼び出しが正しくありません）、トークンの有効期限が切れています。
+トークンが無効（トークンの生成に使用される不適切なIMS呼び出し）であるか、トークンの有効期限が切れています。
 
-* **作成後にプロファイルが表示されません**
+* **作成後にプロファイルが表示されない**
 
-インスタンスの設定に応じて、作成したプロファイルは **orgUnit** に関連付ける必要があります。 作成にこのフィールドを追加する方法については、[&#x200B; この節 &#x200B;](creating-profiles-api.md) を参照してください。
+インスタンス設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[このセクション ](creating-profiles-api.md)を参照してください。
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
+<!-- 
+* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles

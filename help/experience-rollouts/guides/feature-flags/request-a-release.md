@@ -1,24 +1,24 @@
 ---
 title: リリースをリクエスト
 description: Adobe エクスペリエンスのロールアウトで新しい調整リリースをリクエストする方法と、提供する情報について説明します。
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '255'
 ht-degree: 3%
 
 ---
-
 
 # リリースをリクエスト {#request-a-release}
 
 ## 前提条件 {#prerequisites}
 
-* **リリースマネージャー**&#x200B;の役割があります – [&#x200B; ユーザーロール &#x200B;](../teams/user-roles.md)を参照してください
-* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
+* **リリースマネージャー**&#x200B;の役割があります – <!-- broken link[User roles](../teams/user-roles.md) -->を参照
+* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
 
 >[!TIP]
 >
->リリースをリクエストする前に、[&#x200B; リリースとチーム間の機能グループ &#x200B;](releases-and-cross-team-feature-groups.md)を確認してください。 クロスチームの機能グループは、セルフサービス型で、より豊富なオーディエンスターゲティングをサポートするため、より少ないオーバーヘッドでニーズを満たすことができます。
+>リリースをリクエストする前に、<!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->を確認してください。 クロスチームの機能グループは、セルフサービス型で、より豊富なオーディエンスターゲティングをサポートするため、より少ないオーバーヘッドでニーズを満たすことができます。
 
 ## サポートリクエストを送信 {#submit}
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 ## リリースの作成後 {#after}
 
-リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[&#x200B; リリースワークフローのエンドツーエンド &#x200B;](release-workflow-end-to-end.md)を参照してください。
+リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[ リリースワークフローのエンドツーエンド ](release-workflow-end-to-end.md)を参照してください。
 
 ## 関連トピック {#see-also}
 
