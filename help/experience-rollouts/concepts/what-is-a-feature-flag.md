@@ -1,13 +1,13 @@
 ---
 title: 機能フラグとは
 description: 機能フラグの概要と、再展開せずに実行時にアプリケーション機能をオンまたはオフにする方法について説明します。
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # 機能フラグとは {#what-is-a-feature-flag}
 
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->エクスペリエンスのロールアウトでは、機能フラグは機能制御の最もアトミックな単位です。 単独で使用して、1つの機能をターゲットにしたり、[機能グループ &#x200B;](feature-groups-to-control-multiple-features.md)または[&#x200B; リリース &#x200B;](release-management.md)の他のフラグと組み合わせたりできます。
+>エクスペリエンスのロールアウトでは、機能フラグは機能制御の最もアトミックな単位です。 単独で使用して、1つの機能をターゲットにしたり、[機能グループ ](feature-groups-to-control-multiple-features.md)の他のフラグと組み合わせたりできます。

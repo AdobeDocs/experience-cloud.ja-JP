@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Adobe Experience Rolloutsを使用して、アプリケーション全体で機能フラグ、制御ロールアウト、ターゲットリリースを管理する方法について説明します。
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '180'
 ht-degree: 8%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 8%
    + [機能フラグとは](concepts/what-is-a-feature-flag.md)
    + [機能を有効または無効にする機能フラグ](concepts/feature-flags-to-enable-disable-features.md)
    + [複数の機能を制御する機能グループ](concepts/feature-groups-to-control-multiple-features.md)
-   + [リリース管理について](concepts/concept-of-release-management.md)
-   + [エクスペリエンスのロールアウトでのリリース管理](concepts/release-management.md)
    + [段階的な展開](concepts/gradual-rollout.md)
 + ガイド {#guides}
    + コンソールの概要 {#console}
@@ -48,30 +46,14 @@ ht-degree: 8%
       + [機能グループの作成](guides/feature-flags/create-a-feature-group.md)
       + [機能グループを設定し](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [機能フラグによるA/B テスト](guides/feature-flags/a-b-testing.md)
-      + [リリース管理に関するFAQ](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
-      + [スケジュール](guides/feature-flags/schedule.md)
    + オーディエンス基準 {#audience}
       + [機能フラグと機能グループのオーディエンス](guides/audience/audience-in-feature-flags-and-feature-groups.md)
       + [オーディエンスルールでのコンテキストの使用](guides/audience/using-context-in-audience-rules.md)
       + [複雑なオーディエンスルール](guides/audience/complex-rules.md)
-      + [オーディエンスルールでの企業組織データの使用](guides/audience/using-enterprise-org-data.md)
       + [オーディエンス条件に割合ルールを追加](guides/audience/adding-percentage-rules.md)
-      + [クライアント IP コンテキスト変数を使用したオーディエンスルール](guides/audience/clientip-rule.md)
-   + 環境をまたいだワークフロー {#cross-environment}
-      + [環境横断的な概念](guides/cross-environment/cross-environment-concept.md)
-      + [環境をアプリケーションに関連付ける](guides/cross-environment/associate-environments.md)
-      + [環境をまたいで機能フラグを表示](guides/cross-environment/view-feature-flags-across-environments.md)
+   + 機能フラグの読み込み {#import}
       + [機能フラグの読み込み](guides/cross-environment/import-feature-flags.md)
-   + サポート {#support}
-      + [トラブルシューティング](guides/support/troubleshooting.md)
-      + [サポートを受ける](guides/support/get-support.md)
-      + [サポートに連絡](guides/support/contact-support.md)
    + SDK リリース {#sdk-releases}
-      + Java SDK {#java-sdk}
-         + [Java SDK統合ガイド](guides/sdk-releases/java/java-sdk-integration-guide.md)
-         + [Java SDK リリースノート](guides/sdk-releases/java/java-sdk-release-notes.md)
-      + Node.js SDK {#nodejs-sdk}
-         + [Node.js SDK統合ガイド](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
-         + [Node.js SDK リリースノート](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
-      + [SDK ベンチマーク](guides/sdk-releases/java-sdk-benchmarking.md)
+      + Android拡張機能 {#android-extension}
+         + [Android拡張機能の統合ガイド](guides/sdk-releases/android/android-extension-integration-guide.md)

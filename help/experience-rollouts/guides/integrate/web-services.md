@@ -2,10 +2,10 @@
 title: Web サービス
 description: JavaまたはNode.js SDKを使用して、Adobe Experience Rolloutsをバックエンド web サービスに統合する方法について説明します。
 exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '85'
+ht-degree: 10%
 
 ---
 
@@ -15,14 +15,13 @@ ht-degree: 12%
 
 ## 利用可能なSDK {#available-sdks}
 
-| 言語 | 統合ガイド | リリースノート |
-|---|---|---|
-| **Java** | [Java SDK統合ガイド &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) | [Java SDK リリースノート &#x200B;](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Node.js** | [Node.js SDK統合ガイド &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Node.js SDK リリースノート &#x200B;](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+>[!NOTE]
+>
+>サーバーサイド SDKのドキュメントは現在準備中であり、近日中に公開される予定です。 早期アクセスガイダンスについては、Adobe担当者にお問い合わせください。
 
 ## その他の言語 {#other-languages}
 
-バックエンドサービスで上記に記載されていない言語を使用している場合は、Experience Rollouts サポートに連絡して、特定のスタックとの統合に関するガイダンスを受けてください。
+特定のスタックとの統合について詳しくは、Experience Rollouts サポートにお問い合わせください。
 
 ## 関連トピック {#see-also}
 
