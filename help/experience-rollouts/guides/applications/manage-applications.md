@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## アプリケーションの追加 {#add-application}
 
-アプリケーションを追加する手順については、[ アプリケーションのオンボーディング ](onboard-your-application.md)を参照してください。
+アプリケーションを追加する手順については、[&#x200B; アプリケーションのオンボーディング &#x200B;](onboard-your-application.md)を参照してください。
 
 ## 関連トピック {#see-also}
 
