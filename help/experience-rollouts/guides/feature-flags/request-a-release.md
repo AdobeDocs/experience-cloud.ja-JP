@@ -1,8 +1,9 @@
 ---
 title: リリースをリクエスト
 description: Adobe エクスペリエンスのロールアウトで新しい調整リリースをリクエストする方法と、提供する情報について説明します。
+hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 3%
@@ -14,7 +15,7 @@ ht-degree: 3%
 ## 前提条件 {#prerequisites}
 
 * **リリースマネージャー**&#x200B;の役割があります – <!-- broken link[User roles](../teams/user-roles.md) -->を参照
-* アプリケーションがオンボーディングされました。[&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
+* アプリケーションがオンボーディングされました。[ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
 
 >[!TIP]
 >
@@ -39,10 +40,12 @@ ht-degree: 3%
 
 ## リリースの作成後 {#after}
 
-リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[&#x200B; リリースワークフローのエンドツーエンド &#x200B;](release-workflow-end-to-end.md)を参照してください。
+リリースが作成されたことを確認したら、コンソールにログインしてリリース設定を完了します。 一連の手順について詳しくは、[ リリースワークフローのエンドツーエンド ](release-workflow-end-to-end.md)を参照してください。
 
 ## 関連トピック {#see-also}
 
 * [エンドツーエンドのリリースワークフロー](release-workflow-end-to-end.md)
 * [リリースオーディエンスルールの更新](update-release-audience-rules.md)
 * [リリース状態](release-states.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: デスクトップアプリケーション
 description: SDKを使用して、Adobe Experience ロールアウトをデスクトップアプリケーションに統合する方法について説明します。
+hide: true
 exl-id: e26c8af8-893a-43f4-905c-7292cc887900
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 5%
@@ -25,3 +26,5 @@ ht-degree: 5%
 
 * [統合ステップ](integration-steps.md)
 * [スタートアップガイド](startup-guide.md)
+
+<!-- -->

@@ -1,13 +1,14 @@
 ---
 title: 機能と機能グループ
 description: Adobe エクスペリエンスのロールアウトにおける機能フラグと機能グループの違いと、それらを使用するタイミングについて説明します。
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 5%
 
 ---
-
 
 # 機能と機能グループ {#features-feature-groups}
 
@@ -44,3 +45,5 @@ ht-degree: 5%
 
 * [最初の機能フラグを作成](create-your-first-feature-flag.md)
 * [機能グループの作成](create-a-feature-group.md)
+
+<!-- -->

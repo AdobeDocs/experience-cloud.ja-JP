@@ -1,13 +1,14 @@
 ---
 title: 機能グループを設定し
 description: Adobe Experience Rolloutsの機能グループに対してパーセンテーションベースの段階的なロールアウトを設定する方法について説明します。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 3%
 
 ---
-
 
 # 機能グループを設定し {#gradual-rollout-feature-group}
 
@@ -26,3 +27,5 @@ ht-degree: 3%
 * [機能グループの作成](create-a-feature-group.md)
 * [機能フラグによるA/B テスト](a-b-testing.md)
 * [段階的な展開](../../concepts/gradual-rollout.md)
+
+<!-- -->

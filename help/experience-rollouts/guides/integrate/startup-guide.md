@@ -1,8 +1,9 @@
 ---
 title: スタートアップガイド
 description: アクセスのリクエストから最初の機能フラグの作成まで、アプリケーションをAdobe Experience ロールアウトと統合するには、次の手順に従います。
+hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 1%
@@ -15,11 +16,11 @@ ht-degree: 1%
 
 ## 手順1：アクセスのリクエスト {#step-1-access}
 
-Experience Rollouts コンソールへのアクセスをリクエストし、チームに参加します。 詳細な手順については、[&#x200B; アクセスを要求](../console/request-access.md)を参照してください。
+Experience Rollouts コンソールへのアクセスをリクエストし、チームに参加します。 詳細な手順については、[ アクセスを要求](../console/request-access.md)を参照してください。
 
 ## 手順2：アプリケーションのオンボーディング {#step-2-onboard}
 
-アクセスを取得したら、Experience Rollouts コンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [&#x200B; アプリケーションのオンボーディング &#x200B;](../applications/onboard-your-application.md)を参照してください。
+アクセスを取得したら、Experience Rollouts コンソールにログインし、アプリケーションがチームの下に表示されていることを確認します。 そうでない場合は、チーム管理者に追加を依頼してください。 [ アプリケーションのオンボーディング ](../applications/onboard-your-application.md)を参照してください。
 
 オンボーディングの前に、次の手順に従います。
 
@@ -52,3 +53,5 @@ Experience Rollouts コンソールへのアクセスをリクエストし、チ
 * [アプリにエクスペリエンスのロールアウトを統合する](integrating-in-your-app.md)
 * [統合ステップ](integration-steps.md)
 * [SDK](sdks.md)
+
+<!-- -->

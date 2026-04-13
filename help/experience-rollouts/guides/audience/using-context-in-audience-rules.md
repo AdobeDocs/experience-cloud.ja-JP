@@ -1,8 +1,9 @@
 ---
 title: オーディエンスルールでのコンテキストの使用
 description: Adobe Experience Rolloutsの機能フラグと機能グループに対するオーディエンスルールで、コンテキスト変数を使用する方法について説明します。
+hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -31,7 +32,7 @@ ht-degree: 0%
 
 数値を保持するコンテキスト変数。
 
-使用可能な演算子：**1&rbrace;より大きい、** 3&rbrace;以上、**は**、**より小さい**、**より小さい**&#x200B;です&#x200B;**&#x200B;**
+使用可能な演算子：**1}より大きい、** 3}以上、**は**、**より小さい**、**より小さい**&#x200B;です&#x200B;****
 
 ### 文字列タイプ {#string-type}
 
@@ -54,3 +55,5 @@ ht-degree: 0%
 
 * [機能フラグと機能グループのオーディエンス](audience-in-feature-flags-and-feature-groups.md)
 * [オーディエンス条件に割合ルールを追加](adding-percentage-rules.md)
+
+<!-- -->

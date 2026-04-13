@@ -1,8 +1,9 @@
 ---
 title: 機能を有効または無効にする機能フラグ
 description: エクスペリエンスのロールアウトで機能フラグを使用して、機能の可用性を制御し、依存関係を管理して、デプロイメントリスクを軽減する方法について説明します。
+hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -43,4 +44,6 @@ ht-degree: 0%
 
 1. 開発者は機能フラグを作成し、それを他のユーザーに公開することなく、分離してテストできます。
 2. プロダクトオーナーは、オーディエンスをフラグにリンクし、定義された外部ユーザーのセットに対して機能を表示します。
-3. フラグはオプションで[機能グループ &#x200B;](feature-groups-to-control-multiple-features.md)に追加され、関連するフラグと共に管理されます。
+3. フラグはオプションで[機能グループ ](feature-groups-to-control-multiple-features.md)に追加され、関連するフラグと共に管理されます。
+
+<!-- -->

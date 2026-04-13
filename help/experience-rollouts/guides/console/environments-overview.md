@@ -1,13 +1,14 @@
 ---
 title: サンドボックスの選択
 description: Adobe Experience Rolloutsで作業する際に適切なAdobe Experience Platform サンドボックスを選択する方法について説明します。
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 2%
 
 ---
-
 
 # サンドボックスの選択 {#sandbox}
 
@@ -21,3 +22,5 @@ ht-degree: 2%
 
 * [コンソールにログインします](log-in-to-the-console.md)
 * [利用申請](request-access.md)
+
+<!-- -->
