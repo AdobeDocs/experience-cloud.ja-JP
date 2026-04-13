@@ -3,7 +3,7 @@ audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Adobe Experience Rolloutsを使用して、アプリケーション全体で機能フラグ、制御ロールアウト、ターゲットリリースを管理する方法について説明します。
 hide: true
-source-git-commit: 632654252181c4941632a0dbd1877e721a4d3a71
+source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 8%
@@ -11,7 +11,7 @@ ht-degree: 8%
 ---
 
 
-# Adobe Experience Rollouts {#experience-rollouts}
+# Adobe Experience Rollouts {#experience-rollouts-docs}
 
 + [概要](home.md)
 + はじめに {#get-started}
@@ -60,3 +60,7 @@ ht-degree: 8%
          + [Android拡張機能の統合ガイド](guides/sdk-releases/android/android-extension-integration-guide.md)
       + iOS拡張機能 {#ios-extension}
          + [iOS拡張機能の統合ガイド](guides/sdk-releases/ios/ios-extension-integration-guide.md)
+
+<!-- 
+Bob was here
+-->
