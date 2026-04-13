@@ -2,8 +2,9 @@
 title: Adobe Experience Rollouts
 description: Adobe Experience Rolloutsを使用して、制御されたロールアウト、機能フラグ、ターゲットオーディエンス管理を使用して、機能を安全かつ徐々に提供する方法について説明します。
 hide: true
+index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
+source-git-commit: 9387119c1d87e07f11ee4a98e2698c804e2fe780
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%

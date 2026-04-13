@@ -1,8 +1,9 @@
 ---
 title: 機能フラグの読み込み
 description: Adobe Experience Rolloutsで、あるサンドボックスから別のサンドボックスに機能フラグを読み込んで、フラグ設定を手動で再作成する必要がない方法を説明します。
+hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
@@ -43,3 +44,5 @@ ht-degree: 1%
 
 * [機能と機能グループ](../feature-flags/features-feature-groups-releases.md)
 * [最初の機能フラグを作成](../feature-flags/create-your-first-feature-flag.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: アプリケーションの管理
 description: 新しいアプリケーションの追加など、Adobe Experience Rolloutsでのアプリケーションの管理方法について説明します。
+hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -25,3 +26,5 @@ ht-degree: 1%
 
 * [アプリケーションのオンボーディング](onboard-your-application.md)
 * [複数の機能を制御する機能グループ](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: スタートアップガイド
 description: アクセスのリクエストから最初の機能フラグの作成まで、アプリケーションをAdobe Experience ロールアウトと統合するには、次の手順に従います。
+hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 1%
@@ -52,3 +53,5 @@ Experience Rollouts コンソールへのアクセスをリクエストし、チ
 * [アプリにエクスペリエンスのロールアウトを統合する](integrating-in-your-app.md)
 * [統合ステップ](integration-steps.md)
 * [SDK](sdks.md)
+
+<!-- -->

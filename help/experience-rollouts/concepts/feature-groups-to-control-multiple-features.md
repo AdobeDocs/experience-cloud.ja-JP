@@ -1,8 +1,9 @@
 ---
 title: 複数の機能を制御する機能グループ
 description: Experience Rolloutsの機能グループを使用して、アプリケーション間で関連する機能フラグを1つのユニットとしてバンドルおよび管理する方法について説明します。
+hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -23,3 +24,5 @@ ht-degree: 0%
 
 機能グループは、アプリケーション間の機能管理をサポートします。 複数のアプリケーションにまたがる関連フラグは、グループ化できます。
 
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: 最初の機能フラグを作成
 description: Adobe エクスペリエンスロールアウトで機能フラグを作成し、オーディエンスを設定して、ユーザーにロールアウトする前にテストする方法について説明します。
+hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -60,3 +61,5 @@ ht-degree: 0%
 
 * [徐々にロールアウトする機能を設定する](set-feature-gradual-rollout.md)
 * [機能グループの作成](create-a-feature-group.md)
+
+<!-- -->

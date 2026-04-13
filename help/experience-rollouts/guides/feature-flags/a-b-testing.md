@@ -1,8 +1,9 @@
 ---
 title: 機能フラグによるA/B テスト
 description: 一連の機能フラグに複数のバリエーションを設定することで、Adobe Experience Rolloutsの機能グループを使用してA/B テストを実行する方法について説明します。
+hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -53,3 +54,5 @@ ht-degree: 1%
 * [機能グループの作成](create-a-feature-group.md)
 * [機能グループを設定し](set-feature-group-gradual-rollout.md)
 * [分析](analytics.md)
+
+<!-- -->

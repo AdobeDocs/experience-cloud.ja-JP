@@ -1,13 +1,14 @@
 ---
 title: 徐々にロールアウトする機能を設定する
 description: Adobe Experience Rolloutsの機能フラグに対してパーセンテーションベースの段階的なロールアウトを設定する方法について説明します。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # 徐々にロールアウトする機能を設定する {#gradual-rollout-feature}
 
@@ -24,3 +25,5 @@ ht-degree: 3%
 * [段階的な展開](../../concepts/gradual-rollout.md)
 * [機能グループを設定し](set-feature-group-gradual-rollout.md)
 * [最初の機能フラグを作成](create-your-first-feature-flag.md)
+
+<!-- -->

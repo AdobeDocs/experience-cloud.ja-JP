@@ -1,13 +1,14 @@
 ---
 title: エンドツーエンドのリリースワークフロー
 description: 機能フラグの定義から本番稼動に至るまで、Adobe Experience Rolloutsの調整リリースを管理するためのエンドツーエンドのワークフローを説明します。
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
 
 ---
-
 
 # エンドツーエンドのリリースワークフロー {#release-workflow}
 
@@ -46,3 +47,5 @@ ht-degree: 1%
 * [リリースをリクエスト](request-a-release.md)
 * [リリースオーディエンスルールの更新](update-release-audience-rules.md)
 * [リリース状態](release-states.md)
+
+<!-- -->

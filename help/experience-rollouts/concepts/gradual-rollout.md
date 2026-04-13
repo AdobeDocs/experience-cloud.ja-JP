@@ -1,8 +1,9 @@
 ---
 title: 段階的な展開
 description: エクスペリエンスのロールアウトを段階的に実施することで、リアルタイムのフィードバックとリスクを最小限に抑えながら、機能の提供を安全に本番環境に導入する方法をご確認ください。
+hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 2%
@@ -38,3 +39,5 @@ ht-degree: 2%
 ## 関連トピック {#see-also}
 
 * [機能を有効または無効にする機能フラグ](feature-flags-to-enable-disable-features.md)
+
+<!-- -->

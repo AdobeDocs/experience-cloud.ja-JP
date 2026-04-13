@@ -1,8 +1,9 @@
 ---
 title: web アプリケーション
 description: Web SDKを使用して、Adobe Experience Rolloutsをweb アプリケーションに統合する方法について説明します。
+hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 8%
@@ -25,3 +26,5 @@ web アプリケーションは、web SDKを介してエクスペリエンスロ
 
 * [統合ステップ](integration-steps.md)
 * [スタートアップガイド](startup-guide.md)
+
+<!-- -->

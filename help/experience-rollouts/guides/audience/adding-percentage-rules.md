@@ -1,8 +1,9 @@
 ---
 title: オーディエンス条件に割合ルールを追加
 description: Adobe エクスペリエンスロールアウトのオーディエンス条件内にパーセンテーションベースのルールを追加して、様々なオーディエンスセグメントに対して異なるロールアウト率をターゲティングする方法について説明します。
+hide: true
 exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -63,3 +64,5 @@ ht-degree: 0%
 * [機能フラグと機能グループのオーディエンス](audience-in-feature-flags-and-feature-groups.md)
 * [複雑なオーディエンスルール](complex-rules.md)
 * [徐々にロールアウトする機能を設定する](../feature-flags/set-feature-gradual-rollout.md)
+
+<!-- -->

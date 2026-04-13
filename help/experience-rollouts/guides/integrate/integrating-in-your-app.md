@@ -1,8 +1,9 @@
 ---
 title: アプリにエクスペリエンスのロールアウトを統合する
 description: Web サービス、web プロパティ、モバイルアプリ、デスクトップアプリケーションなど、Adobe Experience ロールアウトをアプリケーションに統合する方法について説明します。
+hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -33,3 +34,5 @@ ht-degree: 0%
 | **Web アプリケーション** | Web SDK（近日リリース予定） |
 | **モバイルアプリケーション** | モバイルSDK（近日リリース予定） |
 | **デスクトップアプリケーション** | SDK（近日リリース予定） |
+
+<!-- -->

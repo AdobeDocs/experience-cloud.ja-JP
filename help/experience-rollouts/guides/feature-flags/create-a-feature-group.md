@@ -1,8 +1,9 @@
 ---
 title: 機能グループの作成
 description: Adobe Experience Rolloutsで機能グループを作成し、チーム内のアプリケーション間で複数の機能フラグを1つのユニットとして管理する方法について説明します。
+hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -69,3 +70,5 @@ ht-degree: 0%
 * [機能グループを設定し](set-feature-group-gradual-rollout.md)
 * [機能フラグによるA/B テスト](a-b-testing.md)
 * [複数の機能を制御する機能グループ](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

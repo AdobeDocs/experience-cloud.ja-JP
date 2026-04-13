@@ -1,13 +1,14 @@
 ---
 title: エクスペリエンスのロールアウトモード
 description: Adobe Experience Rolloutsの2つの機能ターゲティングモード（ユーザーレベルのターゲティングと組織レベルのターゲティング）と、それらを使用するタイミングについて説明します。
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 3%
 
 ---
-
 
 # エクスペリエンスのロールアウトモード {#modes}
 
@@ -81,3 +82,5 @@ ht-degree: 3%
 
 * 質問が&#x200B;*の場合「この機能を表示するユーザーはどれですか？」* → **ユーザーレベルのターゲティング**&#x200B;を使用
 * 質問が&#x200B;*の場合、「この機能を備えるべき組織または環境はどれですか？」* → **組織および環境レベルのターゲティング**&#x200B;を使用
+
+<!-- -->

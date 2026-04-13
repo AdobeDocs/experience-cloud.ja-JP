@@ -1,8 +1,9 @@
 ---
 title: 利用申請
 description: Adobe Experience Rollouts チームへのアクセスをリクエストする方法と、新規メンバーが利用できるロールについて説明します。
+hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -44,3 +45,5 @@ ht-degree: 1%
 ## サポートが必要な場合 {#need-help}
 
 参加するチームが不明な場合、またはプロジェクトにチームがまだ存在しない場合は、組織のエクスペリエンスロールアウト管理者にお問い合わせください。
+
+<!-- -->

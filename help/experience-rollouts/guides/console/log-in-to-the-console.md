@@ -1,8 +1,9 @@
 ---
 title: Experience Rollouts コンソールにログインします
 description: チームの検索、アクセスのリクエスト、コンソールへのログインを通じて、Adobe Experience Rolloutsの使用開始を行う方法について説明します。
+hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -44,3 +45,5 @@ ht-degree: 2%
 | **チーム** | アプリケーションを所有し、機能フラグを管理する自己管理グループ。 チームはフラットな構造をしており、ユーザーの役割や権限レベルも異なります。 |
 | **アプリケーション** | 機能フラグで制御するアプリケーション。 各アプリケーションは、チームによって所有されます。 |
 | **機能フラグ / 機能グループ** | 機能テストと制御ロールアウト用にエクスペリエンスロールアウトで作成されたアーティファクト。 |
+
+<!-- -->

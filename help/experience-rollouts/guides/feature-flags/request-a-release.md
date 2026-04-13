@@ -1,8 +1,9 @@
 ---
 title: リリースをリクエスト
 description: Adobe エクスペリエンスのロールアウトで新しい調整リリースをリクエストする方法と、提供する情報について説明します。
+hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 3%
@@ -46,3 +47,5 @@ ht-degree: 3%
 * [エンドツーエンドのリリースワークフロー](release-workflow-end-to-end.md)
 * [リリースオーディエンスルールの更新](update-release-audience-rules.md)
 * [リリース状態](release-states.md)
+
+<!-- -->

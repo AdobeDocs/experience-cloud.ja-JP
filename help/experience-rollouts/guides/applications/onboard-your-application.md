@@ -1,8 +1,9 @@
 ---
 title: アプリケーションのオンボーディング
 description: 新しいアプリケーションをAdobe Experience Rolloutsにオンボーディングして、機能フラグの作成と管理を開始する方法について説明します。
+hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
@@ -45,3 +46,5 @@ ht-degree: 2%
 
 * [アプリケーションの管理](manage-applications.md)
 * [コンソールにログインします](../console/log-in-to-the-console.md)
+
+<!-- -->

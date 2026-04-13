@@ -1,8 +1,9 @@
 ---
 title: SDK
 description: Adobe Experience RolloutsのSDK アーキテクチャと、Androidで利用できるモバイル SDK拡張機能について説明します。
+hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
@@ -39,3 +40,5 @@ AndroidのExperience Rollout拡張機能は、Adobe Experience Platform Mobile S
 * [Android拡張機能の統合ガイド](../sdk-releases/android/android-extension-integration-guide.md)
 * [Web サービス](web-services.md)
 * [統合ステップ](integration-steps.md)
+
+<!-- -->
