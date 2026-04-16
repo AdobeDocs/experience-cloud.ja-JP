@@ -1,9 +1,12 @@
 ---
 audience: user
+solution: Target
+landing-page-name: target
+landing-page-breadcrumb-title: Target
 user-guide-title: フラグ
 user-guide-description: Adobe Targetのフラグを使用して、アプリケーション全体で機能フラグ、制御されたロールアウト、ターゲットリリースを管理する方法について説明します。
 hide: true
-source-git-commit: 8a3a8f0293e32db896f62a63ea6a886868ffe1a3
+source-git-commit: 60c70867ff1419f3ccd3458b1758073193e05de4
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 8%
