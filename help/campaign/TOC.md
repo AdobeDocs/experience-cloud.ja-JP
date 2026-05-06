@@ -3,11 +3,12 @@ user-guide-title: Adobe Campaign v8
 user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role: User
-source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
+source-git-commit: 76932b21cfe714780ff520ace588cd9fcba5c6ae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 71%
+source-wordcount: 162
+ht-degree: 81%
 
 ---
 
@@ -39,33 +40,33 @@ ht-degree: 71%
       + [ビジュアライゼーションの追加](reporting/adding-visualizations.md)
       + [コンポーネントの追加](reporting/adding-components.md)
       + [カスタムプロファイルディメンションの作成](reporting/creating-a-custom-profile-dimension.md)
-      + [動的レポート使用契約](reporting/pii-agreement.md)
+      + [動的レポートの使用契約](reporting/pii-agreement.md)
 + ブランディング {#branding}
    + [ブランディングについて](branding/branding-gs.md)
    + [ブランドの設定](branding/branding-configure.md)
    + [ブランドの割り当て](branding/branding-assign.md)
 + REST API {#apis}
-   + [REST API の概要](api/get-started-apis.md)
-   + [Recommendationsと制限事項](api/limitations.md)
-   + [REST API を使用する理由](api/why-using-campaign-standard-apis.md)
+   + [REST APIの基本を学ぶ](api/get-started-apis.md)
+   + [推奨事項と制限事項](api/limitations.md)
+   + [REST APIを使用する理由](api/why-using-campaign-standard-apis.md)
    + [API アクセスのセットアップ](api/setting-up-api-access.md)
-   + グローバルな概念 {#global-concepts}
+   + グローバル概念 {#global-concepts}
       + [必読](api/must-read.md)
       + [エンドポイント](api/endpoints.md)
       + [メタデータのメカニズム](api/metadata-mechanism.md)
       + [動詞](api/verbs.md)
-      + その他の操作 {#additional-operations}
+      + 追加操作 {#additional-operations}
          + [並べ替え](api/sorting.md)
          + [フィルタリング](api/filtering.md)
          + [カウント](api/counting.md)
          + [ページネーション](api/pagination.md)
       + [カスタムリソース](api/custom-resources.md)
    + [カスタムリソースの操作](api/interacting-with-custom-resources.md)
-   + プロファイルの管理{#managing-profiles}
+   + プロファイルの管理 {#managing-profiles}
       + [プロファイルの取得](api/retrieving-profiles.md)
       + [プロファイルの更新](api/updating-profiles.md)
       + [プロファイルの作成](api/creating-profiles-api.md)
-   + サービスと購読 の管理 {#managing-services-and-subscriptiopns}
+   + サービスとサブスクリプションの管理 {#managing-services-and-subscriptiopns}
       + [サービスの作成](api/creating-a-service.md)
       + [購読の取得](api/retrieving-subscriptions.md)
       + [購読の実行](api/perform-subscriptions.md)

@@ -1,23 +1,24 @@
 ---
 cloud: Experience Cloud
 solution: Experience Cloud
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 feature-set: Experience Cloud Services
 type: Documentation
-git-repo: https://github.com/AdobeDocs/experience-cloud.ja-JP
+git-repo: https://github.com/AdobeDocs/experience-cloud.en
 index: true
 mini-toc-levels: 2
 product: experience cloud
-source-git-commit: e78974f85712f9179377fee0d8970d7b637f0943
+source-git-commit: 76932b21cfe714780ff520ace588cd9fcba5c6ae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 96%
 
 ---
 
 
-# 内部使用のためのメタデータ
+# 内部使用のメタデータ
 
-metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
+metadata.md ファイルには、リポジトリ内のユーザーガイドの TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
 | メタデータ | それはどう機能しますか。 |
 |--- |--- |
