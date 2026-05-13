@@ -1,51 +1,61 @@
 ---
 title: Adobe Campaign Web ユーザーインターフェイス
-description: Adobe Campaign web ユーザーインターフェイスの確認
-badge: label="限定提供（LA）" type="Informative" url="campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
+description: Adobe Campaignのweb ユーザーインターフェイスの詳細
+badge: label="限定提供" type="Informative" url="campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
+TQID: https://experienceleague.adobe.com/Ac8fvg1LbjA-BhC7ldFfSxFo-CYzKhjd1itqk6jltOM
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 31%
+source-wordcount: 391
+ht-degree: 48%
 
 ---
 
 # Campaign v8 への Campaign Standard の移行 {#triggers-home}
 
-Campaign v8 に移行する Campaign Standard ユーザーは、新しいバージョンの Adobe Campaign web ユーザーインターフェイスと強力な v8 コンソールを利用できるようになりました。この移行はシームレスで、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するように設計された、直感的な機能をすべて使用できます。Campaign web ユーザーインターフェイスは、Adobe Experience Platformとキャンバスを接続し、統一されたエクスペリエンスを実現します。
+Campaign v8 に移行する Campaign Standard ユーザーは、新しいバージョンの Adobe Campaign web ユーザーインターフェイスと強力な v8 コンソールを利用できるようになりました。 この移行はシームレスで、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するように設計された、直感的な機能をすべて使用できます。 Campaign web ユーザーインターフェイスを使用すると、Adobe Experience Platform と接続されたキャンバスが提供され、統合されたエクスペリエンスを実現できます。
 
-さらに、この移行は多くのメリットをもたらします。
+さらに、この移行には多くの利点があります。
 
-* 堅牢な IT インフラストラクチャ
-* サポートの強化
-* Adobe Experience Platformとの統合
-* 一貫したユーザーインターフェイスとエクスペリエンス
+* 堅牢なIT インフラ
+* 拡張サポート
+* Adobe Experience Platformとの連携
+* 一貫性のあるユーザーインターフェイスとエクスペリエンス
 
-主な機能と概念の違いについて詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration) を参照してください。
+主な機能と概念の違いについて詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration)を参照してください。
 
 ## 最新情報
 
-[Campaign web ユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home) および [Campaign v8](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home) で提供されるすべての機能を確認します。
+[Campaign Web ユーザーインターフェイス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)および[Campaign v8](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)が提供するすべての機能と機能について説明します。
 
-シームレスに移行できるように、Campaign Standardから v8 に主な機能を追加しました。
+シームレスな移行を実現するために、Campaign Standardの主な機能がv8に追加されました。
 
 >[!BEGINTABS]
 
->[!TAB  動的レポート ]
+>[!TAB 動的レポート ]
 
-動的レポートにアクセスすると、完全にカスタマイズ可能なリアルタイムのレポートを提供して、マーケティングアクティビティの影響を測定できます。
+ダイナミックレポートにアクセスし、マーケティング活動の影響を測定するための完全にカスタマイズ可能なリアルタイムのレポートを入手できます。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](reporting/get-started-reporting.md)
 
->[!TAB  ブランディングの一元化 ]
+>[!TAB  ブランディングの一元管理]
 
-技術管理者は、1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。
+技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](branding/branding-gs.md)
 
->[!TAB Rest API]
+>[!TAB REST API]
 
-Rest API を使用すると、Adobe Campaignと使用するテクノロジーのパネルをインターフェイスで接続することで、Adobe Campaignとの統合を作成し、独自のエコシステムを構築できます。
+Rest APIを使用してAdobe Campaignとの統合を構築し、Adobe Campaignと使用するテクノロジーパネルを連携させて独自のエコシステムを構築できます。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](api/get-started-apis.md)
 
@@ -61,7 +71,7 @@ Rest API を使用すると、Adobe Campaignと使用するテクノロジーの
     </td>
     <td>
     <a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong> ワークフローキャンバスを刷新 </strong><br/></div><br/>
+    <div><strong> ワークフローキャンバスを再構築</strong><br/></div><br/>
     </td>
     <td>
     <a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
