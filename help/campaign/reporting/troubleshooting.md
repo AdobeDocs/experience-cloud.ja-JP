@@ -6,10 +6,15 @@ level: Intermediate
 badge: label="限定提供" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Campaign Standard移行済みユーザーに制限"
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
 TQID: https://experienceleague.adobe.com/F93fgaxBe78h7najrzjiDIAJZeCwM3lbCLA-X79-R9I
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
 source-wordcount: 1241
@@ -110,8 +115,8 @@ P1 が 1 日目にメールを 2 回開き、2 日目に 3 回開きました。
 
 繰り返し配信とトランザクション配信を操作する場合、カウントは親と子の両方の配信に関連付けられます。
 例えば、**R1** という名前の繰り返し配信を、1 日目（RC1）、2 日目（RC2）、3 日目（RC3）に毎日実行するように設定するとします。
-1 人のユーザーのみが、すべての子配信を複数回開いたとします。 この場合、個々の繰り返し子配信では、**[!UICONTROL 開封数]**のカウントがそれぞれ 1 として表示されます。
-ただし、同じユーザーがすべての配信をクリックしているため、親の繰り返し配信にも**[!UICONTROL ユニーク開封数]**&#x200B;が 1 として表示されます。
+1 人のユーザーのみが、すべての子配信を複数回開いたとします。 この場合、個々の繰り返し子配信では、**[!UICONTROL 開封数]**&#x200B;のカウントがそれぞれ 1 として表示されます。
+ただし、同じユーザーがすべての配信をクリックしているため、親の繰り返し配信にも&#x200B;**[!UICONTROL ユニーク開封数]**&#x200B;が 1 として表示されます。
 
 レポートは次のようになります。
 
