@@ -5,27 +5,31 @@ exl-id: f49e3da5-acba-4b60-a875-94a6be979cc0
 TQID: https://experienceleague.adobe.com/qY4I-1h-KYpVx3yNz2c5cQFB9bB3I7sSNQ6RtTIyEPY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: Insights
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 100%
-
 ---
-
 # Experience Cloud Triggers について {#overview}
 
 Experience Cloud トリガーは、消費者の重要な行動を特定、定義、モニタリングするための包括的なソリューションを提供します。 これらのトリガーを使用すると、アプリケーションをまたいだコミュニケーションを生成して訪問者に再度エンゲージし、よりパーソナライズされた魅力的なユーザーエクスペリエンスを実現できます。
 
 リアルタイムでの意思決定とパーソナライゼーションにトリガーを使用できます。次に例を示します。
 
-* 買い物かごの放棄、または製品が削除された買い物かごの放棄に対して迅速なリマーケティングキャンペーンを設定し、コンバージョンと収益の増加を支援します。
+* 買い物かごの放棄、または製品が削除された買い物かごの放棄に対して迅速なリマーケティングキャンペーンを設定し、コンバージョンと売上高の増加を支援します。
 * 不完全なフォームとアプリケーションを特定し、パーソナライズされたコミュニケーションでフォローアップして完了を促し、放棄率を減らすことができます。
 * 追跡するサイト上のアクションまたは一連のアクションを監視して、ユーザーの行動に関する有益なインサイトを提供し、ユーザーのアクションに基づいてユーザーエクスペリエンスを最適化できるようにします。
 

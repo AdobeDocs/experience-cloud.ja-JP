@@ -6,13 +6,12 @@ exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 TQID: https://experienceleague.adobe.com/gCmvM2zwg-6CmT-O1HjM24niis-mJRnJEXt3LunUZaI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: CX Enterprise
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 100%
-
 ---
-
 # グローバル抑制リスト {#global-suppression-list}
 
 抑制リストは、配信から除外するメールアドレスの一覧です。これらのアドレスに送信すると、送信の評判や配信率が低下する可能性があるなどの理由から対象外にします。 アドビは、エンゲージメントやメーリングの評判に悪影響を与えることが判明している既知の不正なメールアドレスのリストを絶えず更新して、それらのアドレスにメールが配信されないようにしています。 このリストは、すべてのアドビのお客様に共通のグローバル抑制リストで管理されます。 グローバル抑止リストに含まれているアドレスやドメイン名は非公開です。 除外された受信者の数のみが配信レポートに含まれます。
